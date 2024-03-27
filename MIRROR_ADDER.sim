@@ -1,0 +1,46 @@
+| units: 30 tech: scmos format: MIT
+n C a_2_8# Cout` 2 4 23 8
+n C VSS a_65_8# 2 4 79 8
+p Cout` a_65_44# S` 2 4 87 44
+p A a_2_44# VDD 2 4 7 44
+p A Cout` a_41_44# 2 4 39 44
+p B a_65_44# VDD 2 4 71 44
+n A Cout` a_41_8# 2 4 39 8
+p C a_2_44# Cout` 2 4 23 44
+p A S` a_108_44# 2 4 106 44
+p B a_41_44# VDD 2 4 47 44
+p B a_108_44# a_115_44# 2 4 113 44
+n B VSS a_2_8# 2 4 15 8
+n B a_65_8# VSS 2 4 71 8
+n A a_2_8# VSS 2 4 7 8
+n Cout` a_65_8# S` 2 4 87 8
+n C a_115_8# VSS 2 4 120 8
+p C a_115_44# VDD 2 4 120 44
+n B a_41_8# VSS 2 4 47 8
+n B a_108_8# a_115_8# 2 4 113 8
+p C VDD a_65_44# 2 4 79 44
+p A VDD a_65_44# 2 4 63 44
+n A VSS a_65_8# 2 4 63 8
+p B VDD a_2_44# 2 4 15 44
+n A S` a_108_8# 2 4 106 8
+C A B 4.02
+C A VSS 2.01
+C C Cout` 2.35
+C B C 3.46
+R a_65_8# 18
+C VSS GND 3.49
+R VSS 57
+R a_2_8# 18
+R S` 35
+R a_65_44# 15
+R a_2_44# 15
+C Cout` GND 4.41
+R Cout` 90
+C C GND 7.27
+R C 181
+C B GND 8.72
+R B 242
+C A GND 8.55
+R A 241
+C VDD GND 28.63
+R VDD 4237
