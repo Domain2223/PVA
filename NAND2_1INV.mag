@@ -1,0 +1,28 @@
+magic
+tech scmos
+timestamp 1711596499
+<< nwell >>
+rect 6 51 10 55
+<< polycontact >>
+rect 33 25 37 29
+rect 6 15 10 19
+<< metal1 >>
+rect 6 51 10 55
+rect 18 25 23 29
+rect 42 25 46 29
+rect 6 -1 10 3
+use INV  INV_0
+timestamp 1711561836
+transform 1 0 4 0 1 -1
+box -4 0 20 59
+use NAND2  NAND2_0
+timestamp 1711563584
+transform 1 0 20 0 1 -1
+box -6 0 34 62
+<< labels >>
+rlabel polycontact 8 17 8 17 1 A
+rlabel polycontact 35 27 35 27 1 B
+rlabel metal1 44 27 44 27 1 Y
+rlabel metal1 8 53 8 53 1 VDD
+rlabel metal1 8 1 8 1 1 VSS
+<< end >>
