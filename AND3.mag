@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1711580867
+timestamp 1711594718
 << nwell >>
 rect 8 52 12 56
 << psubstratepcontact >>
@@ -8,9 +8,9 @@ rect 8 0 12 4
 << nsubstratencontact >>
 rect 8 52 12 56
 << polycontact >>
-rect 24 32 28 36
-rect 36 32 40 36
-rect 8 24 12 28
+rect 12 24 16 28
+rect 20 24 24 28
+rect 28 24 32 28
 << metal1 >>
 rect 36 20 48 24
 rect 52 16 56 20
@@ -19,14 +19,14 @@ timestamp 1711561836
 transform 1 0 42 0 1 0
 box -4 0 20 59
 use NAND3  NAND3_0
-timestamp 1709762292
+timestamp 1711593430
 transform 1 0 6 0 1 0
 box -6 0 42 62
 << labels >>
 rlabel nsubstratencontact 10 54 10 54 1 VDD
-rlabel polycontact 10 26 10 26 1 A
-rlabel polycontact 26 34 26 34 1 B
-rlabel polycontact 38 34 38 34 1 C
 rlabel psubstratepcontact 10 2 10 2 1 VSS
 rlabel metal1 54 18 54 18 1 Y
+rlabel polycontact 14 26 14 26 1 A
+rlabel polycontact 22 26 22 26 1 B
+rlabel polycontact 30 26 30 26 1 C
 << end >>
