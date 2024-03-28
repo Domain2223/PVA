@@ -1,25 +1,27 @@
 h VDD
 l VSS
-analyzer D RS CLK Q Qb
+analyzer D RST CLK Q Qb
 l D
-l RS
+h RST
 l CLK
-s
-h CLK
-s
-h RS
-l CLK
-s
-h CLK
 s
 h D
-l RS
-l CLK
 s
 h CLK
 s
-h RS
 l CLK
 s
+l D
+s
 h CLK
+s
+l CLK
+s
+h D
+s
+h CLK
+s
+l RST
+s
+l CLK
 s
