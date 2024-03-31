@@ -1,6 +1,9 @@
 magic
 tech scmos
-timestamp 1711593671
+timestamp 1711920764
+<< nwell >>
+rect -6 60 222 64
+rect -6 34 186 60
 << metal1 >>
 rect 0 52 6 56
 rect 30 24 46 28
@@ -44,6 +47,7 @@ rect 166 20 170 24
 rect 194 20 198 24
 rect 202 20 206 24
 rect 210 20 214 24
+rect 186 0 190 4
 rect 6 -8 10 -4
 rect 22 -8 26 -4
 rect 66 -8 70 -4
@@ -64,13 +68,16 @@ rect 58 -40 62 -36
 rect 102 -40 106 -36
 rect 194 -40 198 -36
 << metal2 >>
+rect 14 24 18 68
+rect 50 24 54 68
 rect 130 24 134 52
-rect 202 24 206 52
 rect 6 -4 10 20
 rect 14 -12 18 20
 rect 22 -4 26 20
+rect 14 -40 18 -16
 rect 30 -28 34 20
 rect 50 -20 54 20
+rect 50 -40 54 -24
 rect 58 -36 62 20
 rect 66 -4 70 20
 rect 78 -20 82 20
@@ -83,7 +90,12 @@ rect 150 -4 154 20
 rect 158 -12 162 20
 rect 166 -3 170 20
 rect 174 -12 178 24
+rect 186 4 190 68
+rect 202 56 206 68
+rect 202 24 206 52
+rect 186 -40 190 0
 rect 194 -36 198 20
+rect 202 -40 206 20
 rect 210 -3 214 20
 use NAND3  NAND3_0
 timestamp 1711593430
