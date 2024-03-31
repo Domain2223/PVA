@@ -1,0 +1,59 @@
+timestamp 1711921289
+version 8.3
+tech scmos
+style HP0.5um(hpcmos14tb)from:N9AE
+scale 1000 1 30
+resistclasses 2800 2300 713000 713000 1 2500 2500 70 70 50
+use DFlipFlop DFlipFlop_0 1 0 6 0 1 40
+use DFlipFlop DFlipFlop_1 1 0 6 0 1 148
+use DFlipFlop DFlipFlop_2 1 0 6 0 1 256
+node "CLK" 0 174.096 56 16 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 16 16 0 0
+node "Q0b" 0 138.96 220 24 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "RST" 0 174.096 20 24 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 16 16 0 0
+node "Q0" 0 138.96 220 33 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "D0" 0 138.96 8 32 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "Q1b" 0 138.96 220 132 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "Q1" 0 138.96 220 141 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "D1" 0 138.96 8 140 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "Q2b" 0 138.96 220 240 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "Q2" 0 138.96 220 249 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "D2" 0 138.96 8 248 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "VSS" 2 94.32 8 40 poc 0 0 16 16 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "VDD" 716 229.68 8 92 nw 16 16 0 0 16 16 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+cap "Q1b" "Q1" 36.9392
+cap "VSS" "D0" 23.087
+cap "Q2" "Q2b" 36.9392
+cap "Q0" "Q0b" 36.9392
+cap "DFlipFlop_0/D" "DFlipFlop_0/VSS" 4.61853e-14
+cap "DFlipFlop_0/m1_186_0#" "DFlipFlop_0/Q" 30.7827
+cap "DFlipFlop_1/D" "DFlipFlop_1/VSS" 23.087
+cap "DFlipFlop_1/NAND3_5/VSS" "DFlipFlop_1/NAND3_5/B" 25.512
+cap "DFlipFlop_1/Q" "DFlipFlop_1/m1_186_0#" 30.7827
+cap "DFlipFlop_2/VSS" "DFlipFlop_2/D" 23.087
+cap "DFlipFlop_2/m1_58_n40#" "DFlipFlop_2/m1_186_0#" 25.512
+cap "DFlipFlop_2/m1_186_0#" "DFlipFlop_2/Q" 30.7827
+merge "DFlipFlop_0/Q" "Q0" -55.944 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "DFlipFlop_1/Q" "Q1" -55.944 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "DFlipFlop_2/Q" "Q2" -55.944 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "DFlipFlop_2/RST" "DFlipFlop_1/RST" -209.232 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -16 -32 0 0
+merge "DFlipFlop_1/RST" "DFlipFlop_0/RST"
+merge "DFlipFlop_0/RST" "RST"
+merge "DFlipFlop_0/VSS" "VSS" -94.32 0 0 -16 -16 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "DFlipFlop_0/VDD" "VDD" -229.68 -16 -16 0 0 -16 -16 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "DFlipFlop_2/Qb" "Q2b" -47.16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "DFlipFlop_2/m1_186_0#" "DFlipFlop_1/NAND3_5/VSS" -35.136 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0
+merge "DFlipFlop_1/NAND3_5/VSS" "DFlipFlop_1/m1_186_0#"
+merge "DFlipFlop_1/m1_186_0#" "DFlipFlop_0/m1_186_0#"
+merge "DFlipFlop_2/m1_202_20#" "DFlipFlop_1/NAND3_5/C" -35.136 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0
+merge "DFlipFlop_1/NAND3_5/C" "DFlipFlop_1/NAND3_5/VDD"
+merge "DFlipFlop_1/NAND3_5/VDD" "DFlipFlop_1/m1_202_20#"
+merge "DFlipFlop_1/m1_202_20#" "DFlipFlop_0/NAND3_5/C"
+merge "DFlipFlop_0/NAND3_5/C" "DFlipFlop_0/m1_202_20#"
+merge "DFlipFlop_1/Qb" "Q1b" -47.16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "DFlipFlop_0/Qb" "Q0b" -47.16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "DFlipFlop_2/CLK" "DFlipFlop_1/CLK" -209.232 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -16 -32 0 0
+merge "DFlipFlop_1/CLK" "DFlipFlop_0/CLK"
+merge "DFlipFlop_0/CLK" "CLK"
+merge "DFlipFlop_2/D" "D2" -55.944 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "DFlipFlop_0/D" "D0" -55.944 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "DFlipFlop_1/D" "D1" -55.944 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
