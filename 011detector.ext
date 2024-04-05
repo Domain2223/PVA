@@ -1,0 +1,199 @@
+timestamp 1712355526
+version 8.3
+tech scmos
+style HP0.5um(hpcmos14tb)from:N9AE
+scale 1000 1 30
+resistclasses 2800 2300 713000 713000 1 2500 2500 70 70 50
+use XOR2 XOR2_1 1 0 62 0 1 8
+use Reg3 Reg3_0 1 0 307 0 1 -148
+use OR2 OR2_0 1 0 60 0 1 -116
+use INV INV_0 1 0 108 0 1 -116
+use AND3 AND3_0 1 0 0 0 1 8
+use AND2 AND2_2 1 0 188 0 1 8
+use AND2 AND2_1 1 0 0 0 1 -116
+node "RST'" 6 7589.79 18 -188 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1252 634 216 116 0 0
+node "CLK" 7 8347.45 18 -180 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1396 706 172 94 0 0
+node "m1_94_n141#" 6 5965.69 94 -141 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 916 482 312 172 0 0
+node "m1_78_n125#" 2 1755.65 78 -125 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 208 128 232 132 0 0
+node "m1_95_n24#" 12 12331.2 95 -24 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1792 920 924 486 0 0
+node "m1_44_n133#" 8 7958.66 44 -133 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1120 584 648 340 0 0
+node "m1_62_n96#" 6 5356.04 62 -96 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 728 388 496 264 0 0
+node "A_xor_B" 6 4984.56 8 -86 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 674 388 460 246 0 0
+node "m1_139_n8#" 15 13399.7 139 -8 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1720 892 1556 802 0 0
+node "m1_28_n32#" 15 14447.8 28 -32 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2060 1070 1160 604 0 0
+node "m1_20_0#" 2 1527.48 20 0 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 208 120 128 72 0 0
+node "I" 7 5011.04 8 -40 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 500 290 1000 524 0 0
+node "Y" 6 3479.76 531 101 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 64 1172 594 0 0
+node "m1_52_35#" 7 7050.76 52 35 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1100 574 292 162 0 0
+node "VSS" 17 18143.8 6 8 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2776 1428 912 464 0 0
+node "VDD" 23 24819 6 -64 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4184 2124 896 456 0 0
+node "w_6_n64#" 21034 3993.12 6 -64 nw 0 0 0 0 472 244 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "m1_95_n24#" "m1_94_n141#" 156.768
+cap "I" "m1_28_n32#" 992.741
+cap "CLK" "RST'" 3769.88
+cap "VSS" "I" 313.536
+cap "m1_28_n32#" "m1_62_n96#" 156.768
+cap "m1_139_n8#" "A_xor_B" 156.768
+cap "Y" "m1_139_n8#" 1101.79
+cap "VDD" "m1_44_n133#" 156.768
+cap "VSS" "m1_62_n96#" 768.168
+cap "m1_28_n32#" "CLK" 156.768
+cap "m1_139_n8#" "m1_94_n141#" 156.768
+cap "m1_62_n96#" "m1_95_n24#" 156.768
+cap "m1_95_n24#" "CLK" 156.768
+cap "m1_78_n125#" "m1_94_n141#" 156.768
+cap "m1_20_0#" "m1_28_n32#" 457.692
+cap "VDD" "m1_28_n32#" 156.768
+cap "VSS" "m1_20_0#" 733.943
+cap "VDD" "VSS" 2461.27
+cap "m1_28_n32#" "m1_44_n133#" 156.768
+cap "I" "m1_78_n125#" 475.206
+cap "m1_139_n8#" "m1_62_n96#" 156.768
+cap "VDD" "m1_95_n24#" 156.768
+cap "VSS" "m1_44_n133#" 590.58
+cap "m1_139_n8#" "CLK" 2188.42
+cap "m1_28_n32#" "RST'" 156.768
+cap "m1_44_n133#" "m1_95_n24#" 156.768
+cap "m1_95_n24#" "RST'" 156.768
+cap "I" "A_xor_B" 738.119
+cap "VDD" "m1_139_n8#" 156.768
+cap "VSS" "m1_28_n32#" 470.304
+cap "VDD" "m1_52_35#" 2622.24
+cap "I" "m1_94_n141#" 226.029
+cap "m1_139_n8#" "m1_44_n133#" 156.768
+cap "A_xor_B" "m1_62_n96#" 1649.23
+cap "m1_28_n32#" "m1_95_n24#" 7105.14
+cap "VSS" "m1_95_n24#" 260.664
+cap "m1_139_n8#" "RST'" 156.768
+cap "m1_44_n133#" "m1_78_n125#" 531.001
+cap "I" "m1_62_n96#" 803.204
+cap "m1_28_n32#" "m1_139_n8#" 399.842
+cap "VDD" "A_xor_B" 2292.32
+cap "VSS" "m1_139_n8#" 313.536
+cap "VSS" "m1_52_35#" 341.464
+cap "m1_139_n8#" "m1_95_n24#" 6255.69
+cap "VSS" "m1_78_n125#" 738.337
+cap "m1_44_n133#" "m1_94_n141#" 2707.88
+cap "VDD" "I" 313.536
+cap "w_6_n64#" "VDD" 1316.88
+cap "I" "m1_44_n133#" 156.768
+cap "m1_28_n32#" "A_xor_B" 156.768
+cap "VDD" "m1_62_n96#" 156.768
+cap "VSS" "A_xor_B" 156.768
+cap "m1_28_n32#" "m1_94_n141#" 156.768
+cap "A_xor_B" "m1_95_n24#" 156.768
+cap "VSS" "m1_94_n141#" 341.464
+cap "OR2_0/A" "OR2_0/NOR2_0/Y" 23.087
+cap "AND2_1/INV_0/VDD" "OR2_0/A" 19.584
+cap "AND2_1/A" "AND2_1/B" 64.944
+cap "OR2_0/B" "OR2_0/NOR2_0/Y" 115.435
+cap "OR2_0/VSS" "AND2_1/Y" 2.84217e-14
+cap "OR2_0/NOR2_0/Y" "OR2_0/Y" 46.174
+cap "OR2_0/B" "OR2_0/VSS" 99.7544
+cap "OR2_0/VSS" "OR2_0/Y" 2.84217e-14
+cap "AND2_1/NAND2_0/Y" "AND2_1/B" 27.7044
+cap "OR2_0/INV_0/VSS" "INV_0/Y" -18.4696
+cap "INV_0/A" "INV_0/Y" 23.087
+cap "INV_0/A" "OR2_0/INV_0/VSS" 118.224
+cap "Reg3_0/DFlipFlop_0/m1_58_n40#" "m1_28_n32#" 334.761
+cap "Reg3_0/VSS" "Reg3_0/D0" 23.087
+cap "Reg3_0/DFlipFlop_0/m1_58_n40#" "m1_28_n32#" 1154.35
+cap "Reg3_0/Q0b" "Reg3_0/DFlipFlop_0/NAND3_5/C" 356.65
+cap "Reg3_0/Q0" "Reg3_0/Q0b" 91.784
+cap "Reg3_0/Q0b" "Reg3_0/DFlipFlop_0/NAND3_5/B" 150.066
+cap "AND2_1/A" "AND2_1/B" 96.756
+cap "OR2_0/VDD" "AND2_1/B" 90.144
+cap "XOR2_1/NAND2_1INV_0/NAND2_0/Y" "XOR2_1/B" 40.76
+cap "AND2_1/B" "AND2_1/NAND2_0/Y" 271.464
+cap "XOR2_1/VSS" "XOR2_1/A" -23.087
+cap "XOR2_1/VSS" "XOR2_1/B" -103.896
+cap "OR2_0/VDD" "AND2_1/A" 729.724
+cap "OR2_0/VDD" "OR2_0/NOR2_0/A" 449.568
+cap "XOR2_1/NAND2_1INV_0/NAND2_0/Y" "XOR2_1/A" 410.725
+cap "XOR2_1/NAND2_1INV_1/VSS" "XOR2_1/A" -8.52651e-14
+cap "OR2_0/INV_0/VDD" "INV_0/A" 304.992
+cap "XOR2_1/m1_86_n8#" "XOR2_1/NAND2_0/Y" 81.52
+cap "XOR2_1/NAND2_1INV_0/NAND2_0/Y" "XOR2_1/B" 701.447
+cap "XOR2_1/A" "XOR2_1/m1_86_n8#" 288.587
+cap "OR2_0/INV_0/VDD" "XOR2_1/NAND2_0/Y" -23.087
+cap "Reg3_0/DFlipFlop_1/VSS" "Reg3_0/D1" 23.087
+cap "XOR2_1/NAND2_1INV_0/A" "AND3_0/NAND3_0/a_17_8#" 14.184
+cap "XOR2_1/NAND2_1INV_0/A" "AND3_0/C" 1.13687e-13
+cap "AND3_0/C" "AND3_0/NAND3_0/a_17_8#" 39.168
+cap "AND3_0/C" "AND3_0/NAND3_0/Y" 46.174
+cap "XOR2_1/VSS" "AND3_0/A" 143.736
+cap "XOR2_1/NAND2_1INV_0/A" "XOR2_1/VDD" -4.54747e-13
+cap "AND3_0/Y" "XOR2_1/VDD" 387.864
+cap "XOR2_1/NAND2_1INV_0/A" "AND3_0/NAND3_0/a_9_8#" 14.184
+cap "m1_52_35#" "XOR2_1/NAND2_1INV_1/VDD" 1447.63
+cap "AND2_2/A" "XOR2_1/NAND2_1INV_1/VSS" 101.214
+cap "XOR2_1/Y" "XOR2_1/NAND2_1INV_1/Y" 122.28
+cap "AND2_2/VSS" "AND2_2/A" 42.522
+cap "AND2_2/NAND2_0/a_10_8#" "AND2_2/B" 39.168
+cap "AND2_2/VDD" "AND2_2/VSS" 102.816
+cap "AND2_2/Y" "AND2_2/VSS" -4.26326e-14
+cap "AND2_2/VDD" "m1_52_35#" 390.561
+cap "AND2_2/NAND2_0/Y" "AND2_2/B" 18.4696
+cap "Reg3_0/DFlipFlop_2/VSS" "Reg3_0/D2" 23.087
+merge "XOR2_1/Y" "XOR2_1/NAND2_0/Y" -3436.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -332 -189 -272 -140 0 0
+merge "XOR2_1/NAND2_0/Y" "AND2_1/A"
+merge "AND2_1/A" "A_xor_B"
+merge "Reg3_0/DFlipFlop_2/VDD" "Reg3_0/DFlipFlop_1/NAND3_5/VDD" -22779.7 0 0 0 0 -472 -442 0 0 0 0 0 0 0 0 -3108 -1634 -288 -148 0 0
+merge "Reg3_0/DFlipFlop_1/NAND3_5/VDD" "Reg3_0/DFlipFlop_1/VDD"
+merge "Reg3_0/DFlipFlop_1/VDD" "AND2_2/VDD"
+merge "AND2_2/VDD" "XOR2_1/NAND2_1INV_1/VDD"
+merge "XOR2_1/NAND2_1INV_1/VDD" "AND3_0/VDD"
+merge "AND3_0/VDD" "XOR2_1/VDD"
+merge "XOR2_1/VDD" "Reg3_0/DFlipFlop_0/NAND3_5/VDD"
+merge "Reg3_0/DFlipFlop_0/NAND3_5/VDD" "Reg3_0/VDD"
+merge "Reg3_0/VDD" "AND2_1/VDD"
+merge "AND2_1/VDD" "AND2_1/INV_0/VDD"
+merge "AND2_1/INV_0/VDD" "OR2_0/VDD"
+merge "OR2_0/VDD" "VDD"
+merge "VDD" "w_6_n64#"
+merge "w_6_n64#" "OR2_0/INV_0/VDD"
+merge "OR2_0/INV_0/VDD" "INV_0/VDD"
+merge "INV_0/VDD" "OR2_0/NOR2_0/VDD"
+merge "AND3_0/A" "INV_0/A" -777.384 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 0 0 0 0
+merge "INV_0/A" "AND2_1/B"
+merge "AND2_1/B" "I"
+merge "AND2_2/A" "AND3_0/B" -489.294 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -38 -20 -29 0 0
+merge "AND3_0/B" "XOR2_1/NAND2_1INV_0/A"
+merge "XOR2_1/NAND2_1INV_0/A" "Reg3_0/Q1"
+merge "Reg3_0/Q1" "XOR2_1/A"
+merge "XOR2_1/A" "m1_139_n8#"
+merge "m1_139_n8#" "m1_20_0#"
+merge "Reg3_0/DFlipFlop_2/VSS" "Reg3_0/DFlipFlop_1/VSS" -9019.3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1252 -920 0 0 0 0
+merge "Reg3_0/DFlipFlop_1/VSS" "AND2_2/VSS"
+merge "AND2_2/VSS" "XOR2_1/NAND2_1INV_1/VSS"
+merge "XOR2_1/NAND2_1INV_1/VSS" "AND3_0/VSS"
+merge "AND3_0/VSS" "XOR2_1/VSS"
+merge "XOR2_1/VSS" "Reg3_0/VSS"
+merge "Reg3_0/VSS" "OR2_0/INV_0/VSS"
+merge "OR2_0/INV_0/VSS" "AND2_1/VSS"
+merge "AND2_1/VSS" "INV_0/VSS"
+merge "INV_0/VSS" "OR2_0/VSS"
+merge "OR2_0/VSS" "VSS"
+merge "AND2_2/B" "AND3_0/C" -3749.09 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -460 -258 -400 -200 0 0
+merge "AND3_0/C" "Reg3_0/Q0b"
+merge "Reg3_0/Q0b" "m1_28_n32#"
+merge "AND2_2/Y" "AND2_2/INV_0/Y" -4230.76 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -560 -300 -240 -124 0 0
+merge "AND2_2/INV_0/Y" "OR2_0/NOR2_0/A"
+merge "OR2_0/NOR2_0/A" "OR2_0/A"
+merge "OR2_0/A" "m1_62_n96#"
+merge "OR2_0/NOR2_0/B" "INV_0/Y" -307.656 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -24 0 0 0 0
+merge "INV_0/Y" "OR2_0/B"
+merge "OR2_0/B" "m1_78_n125#"
+merge "Reg3_0/D1" "AND2_1/Y" -2112.86 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -204 -126 -336 -172 0 0
+merge "AND2_1/Y" "m1_44_n133#"
+merge "XOR2_1/NAND2_1INV_0/B" "XOR2_1/B" -662.778 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12 -18 -276 -115 0 0
+merge "XOR2_1/B" "Reg3_0/Q0"
+merge "Reg3_0/Q0" "m1_95_n24#"
+merge "Reg3_0/Q2" "Y" -47.16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "Reg3_0/RST" "RST'" -154.656 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -56 -36 0 0
+merge "Reg3_0/DFlipFlop_2/NAND3_0/A" "Reg3_0/D2" -5532.93 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -836 -438 -36 -38 0 0
+merge "Reg3_0/D2" "AND3_0/Y"
+merge "AND3_0/Y" "m1_52_35#"
+merge "Reg3_0/CLK" "CLK" -125.28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -44 -30 0 0
+merge "Reg3_0/D0" "OR2_0/Y" -472.14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -28 -38 -29 -31 0 0
+merge "OR2_0/Y" "m1_94_n141#"
