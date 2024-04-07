@@ -1,0 +1,97 @@
+timestamp 1712454002
+version 8.3
+tech scmos
+style HP0.5um(hpcmos14tb)from:N9AE
+scale 1000 1 30
+resistclasses 2800 2300 713000 713000 1 2500 2500 70 70 50
+use Reg3 Reg3_0 1 0 0 0 1 0
+use AND2_1INV AND2_1INV_0 1 0 830 0 1 80
+use 011detector 011detector_0 1 0 256 0 1 188
+node "A" 1 733.86 6 -16 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 40 28 192 104 0 0
+node "RST" 6 6881.69 6 -24 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1104 568 208 120 0 0
+node "CLK" 7 7378.63 6 -32 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1136 584 352 192 0 0
+node "VSS" 2 1482.28 222 40 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 188 110 144 80 0 0
+node "m1_783_80#" 1 1263.51 783 80 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 212 114 0 0 0 0
+node "FWD" 0 138.96 888 92 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "m1_807_0#" 3 2566.66 807 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 256 144 424 220 0 0
+node "B" 17 20654.1 6 -40 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3352 1692 576 296 0 0
+node "VDD" 2 1459.33 222 92 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 184 108 144 80 0 0
+node "m1_785_132#" 1 1171.71 785 132 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 196 106 0 0 0 0
+node "Q2" 7 5582.41 224 249 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 584 308 928 480 0 0
+node "m1_n4_140#" 13 10297.9 -4 140 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 992 520 1932 982 0 0
+node "m1_n12_248#" 10 9281.9 -12 248 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1132 590 1132 582 0 0
+cap "RST" "CLK" 3523.49
+cap "CLK" "B" 3255.27
+cap "Q2" "VSS" 433.812
+cap "m1_n4_140#" "m1_n12_248#" 5931.6
+cap "m1_n4_140#" "VDD" 156.768
+cap "Q2" "m1_n12_248#" 921.018
+cap "Q2" "VDD" 615.318
+cap "RST" "A" 265.897
+cap "B" "m1_807_0#" 156.768
+cap "m1_n4_140#" "Q2" 131.256
+cap "m1_783_80#" "B" 51.024
+cap "m1_n4_140#" "VSS" 249.116
+cap "Reg3_0/RST" "Reg3_0/CLK" -2.27374e-13
+cap "Reg3_0/D0" "Reg3_0/RST" 360.531
+cap "Reg3_0/D0" "Reg3_0/CLK" 131.256
+cap "011detector_0/CLK" "011detector_0/RST'" 156.768
+cap "Reg3_0/Q0" "VSS" -2.84217e-14
+cap "Reg3_0/DFlipFlop_1/VSS" "Reg3_0/D1" 34.6305
+cap "011detector_0/AND2_1/VDD" "011detector_0/A_xor_B" 2.27374e-13
+cap "m1_n4_140#" "Reg3_0/DFlipFlop_0/NAND3_5/VDD" 197.496
+cap "m1_n4_140#" "Reg3_0/Q1" 146.481
+cap "m1_n4_140#" "Reg3_0/DFlipFlop_0/NAND3_5/Y" 50.95
+cap "Reg3_0/DFlipFlop_0/NAND3_5/VDD" "011detector_0/AND2_1/VDD" 114.12
+cap "Reg3_0/DFlipFlop_0/NAND3_5/VDD" "Reg3_0/DFlipFlop_0/NAND3_5/C" -5.68434e-14
+cap "Reg3_0/Q1b" "m1_n4_140#" 51.024
+cap "m1_783_80#" "011detector_0/Reg3_0/Q0" 46.174
+cap "011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/C" "011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/VDD" 45.27
+cap "AND2_1INV_0/A" "AND2_1INV_0/VSS" 223.968
+cap "011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/VDD" "AND2_1INV_0/VDD" 68.85
+cap "AND2_1INV_0/VDD" "011detector_0/m1_139_n8#" 156.768
+cap "AND2_1INV_0/B" "AND2_1INV_0/VSS" 156.768
+cap "AND2_1INV_0/VDD" "011detector_0/Y" 156.768
+cap "AND2_1INV_0/B" "AND2_1INV_0/AND2_0/NAND2_0/a_10_8#" 39.168
+cap "AND2_1INV_0/VSS" "011detector_0/m1_139_n8#" 156.768
+cap "AND2_1INV_0/B" "AND2_1INV_0/AND2_0/NAND2_0/Y" 18.4696
+cap "011detector_0/Reg3_0/Q0" "AND2_1INV_0/VSS" 46.174
+cap "AND2_1INV_0/VSS" "011detector_0/Y" 156.768
+cap "AND2_1INV_0/A" "AND2_1INV_0/INV_0/Y" 23.087
+cap "Reg3_0/D2" "Reg3_0/DFlipFlop_2/VSS" 34.6305
+cap "Reg3_0/DFlipFlop_1/VDD" "m1_n4_140#" 65.88
+cap "Reg3_0/DFlipFlop_1/NAND3_5/Y" "m1_n4_140#" 127.375
+cap "m1_n4_140#" "Reg3_0/DFlipFlop_1/NAND3_5/VDD" 227.88
+cap "Reg3_0/Q2" "m1_n4_140#" 121.043
+cap "Reg3_0/Q2b" "m1_n4_140#" 51.024
+cap "Reg3_0/DFlipFlop_2/NAND3_1/B" "m1_n4_140#" 51.024
+cap "m1_n4_140#" "Reg3_0/DFlipFlop_2/VDD" 65.88
+cap "m1_n4_140#" "Reg3_0/DFlipFlop_2/NAND3_0/B" 51.024
+cap "Reg3_0/Q2" "m1_n4_140#" 229.275
+cap "Reg3_0/DFlipFlop_2/NAND3_5/VSS" "m1_n4_140#" 51.024
+cap "Reg3_0/DFlipFlop_2/NAND3_5/VDD" "m1_n4_140#" 278.904
+merge "AND2_1INV_0/B" "011detector_0/Y" -190.224 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0
+merge "011detector_0/Y" "m1_807_0#"
+merge "Reg3_0/Q2" "011detector_0/I" -1004.76 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -400 -208 0 0
+merge "011detector_0/I" "Q2"
+merge "011detector_0/AND2_1/VDD" "Reg3_0/DFlipFlop_0/NAND3_5/VDD" -368.46 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -20 0 0 0 0
+merge "Reg3_0/DFlipFlop_0/NAND3_5/VDD" "VDD"
+merge "011detector_0/AND2_1/VSS" "Reg3_0/DFlipFlop_0/NAND3_5/VSS" -1463.22 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -200 -124 -80 -44 0 0
+merge "Reg3_0/DFlipFlop_0/NAND3_5/VSS" "VSS"
+merge "AND2_1INV_0/AND2_0/INV_0/Y" "AND2_1INV_0/Y" -162.54 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -20 0 0 0 0
+merge "AND2_1INV_0/Y" "FWD"
+merge "Reg3_0/D1" "Reg3_0/Q0" -9552.89 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -928 -488 -1744 -880 0 0
+merge "Reg3_0/Q0" "m1_n4_140#"
+merge "AND2_1INV_0/VSS" "011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/VSS" -531 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -72 -56 0 0 0 0
+merge "011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/VSS" "m1_783_80#"
+merge "AND2_1INV_0/VDD" "011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/VDD" -276.66 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12 -18 0 0 0 0
+merge "011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/VDD" "m1_785_132#"
+merge "Reg3_0/DFlipFlop_2/NAND3_0/A" "Reg3_0/D2" -3982.94 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -160 -319 -692 -350 0 0
+merge "Reg3_0/D2" "Reg3_0/Q1"
+merge "Reg3_0/Q1" "m1_n12_248#"
+merge "011detector_0/RST'" "Reg3_0/RST" -165.312 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 -8 0 0
+merge "Reg3_0/RST" "RST"
+merge "011detector_0/CLK" "Reg3_0/CLK" -330.768 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -48 -32 0 0
+merge "Reg3_0/CLK" "CLK"
+merge "Reg3_0/D0" "A" -78.336 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "AND2_1INV_0/A" "B" -159.912 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
