@@ -1,0 +1,46 @@
+magic
+tech scmos
+timestamp 1713982514
+<< metal1 >>
+rect 0 52 14 56
+rect 131 20 135 36
+rect 0 0 14 4
+rect 0 -8 12 -4
+rect 143 -8 161 -4
+rect 0 -16 20 -12
+rect 112 -16 116 -12
+rect 159 -16 161 -12
+rect 22 -24 28 -20
+rect 131 -32 147 -28
+<< m2contact >>
+rect 139 20 143 24
+rect 147 20 151 24
+rect 155 20 159 24
+rect 139 -8 143 -4
+rect 155 -16 159 -12
+rect 147 -32 151 -28
+<< metal2 >>
+rect 139 -4 143 20
+rect 147 -28 151 20
+rect 155 -12 159 20
+use INV  INV_0
+timestamp 1711561836
+transform 1 0 129 0 1 0
+box -4 0 20 59
+use INV  INV_1
+timestamp 1711561836
+transform 1 0 145 0 1 0
+box -4 0 20 59
+use MIRROR_ADDER  MIRROR_ADDER_0
+timestamp 1713982514
+transform 1 0 0 0 1 0
+box -6 -32 135 62
+<< labels >>
+rlabel metal1 12 54 12 54 1 VDD
+rlabel metal1 12 2 12 2 1 VSS
+rlabel metal1 8 -6 8 -6 1 A
+rlabel metal1 16 -14 16 -14 1 B
+rlabel metal1 24 -22 24 -22 1 C
+rlabel metal1 160 -14 160 -14 7 Cout
+rlabel metal1 160 -6 160 -6 7 S
+<< end >>

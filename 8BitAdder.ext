@@ -1,0 +1,231 @@
+timestamp 1713982514
+version 8.3
+tech scmos
+style HP0.5um(hpcmos14tb)from:N9AE
+scale 1000 1 30
+resistclasses 2800 2300 713000 713000 1 2500 2500 70 70 50
+use FullAdder FullAdder_7 1 0 0 0 1 644
+use FullAdder FullAdder_6 1 0 0 0 1 552
+use FullAdder FullAdder_5 1 0 0 0 1 460
+use FullAdder FullAdder_4 1 0 0 0 1 368
+use FullAdder FullAdder_3 1 0 0 0 1 276
+use FullAdder FullAdder_2 1 0 0 0 1 184
+use FullAdder FullAdder_1 1 0 0 0 1 92
+use FullAdder FullAdder_0 1 0 0 0 1 0
+node "m1_123_68#" 2 1739.02 123 68 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 144 88 352 184 0 0
+node "m1_123_160#" 2 1876.72 123 160 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 168 100 352 184 0 0
+node "m1_123_252#" 2 1876.72 123 252 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 168 100 352 184 0 0
+node "m1_123_344#" 2 1876.72 123 344 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 168 100 352 184 0 0
+node "m1_123_436#" 2 1876.72 123 436 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 168 100 352 184 0 0
+node "m1_123_528#" 2 1876.72 123 528 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 168 100 352 184 0 0
+node "m1_123_620#" 2 1876.72 123 620 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 168 100 352 184 0 0
+node "m1_94_0#" 13 7301.66 94 0 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 128 2592 1304 0 0
+node "m1_54_52#" 13 7301.66 54 52 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 128 2592 1304 0 0
+cap "m1_123_160#" "m1_123_68#" 97.124
+cap "m1_123_436#" "m1_123_344#" 97.124
+cap "m1_123_528#" "m1_123_436#" 97.124
+cap "m1_123_160#" "m1_123_252#" 97.124
+cap "m1_123_344#" "m1_123_252#" 97.124
+cap "m1_123_620#" "m1_123_528#" 97.124
+cap "FullAdder_1/MIRROR_ADDER_0/Cout`" "FullAdder_0/VDD" 1663.7
+cap "FullAdder_1/MIRROR_ADDER_0/Cout`" "FullAdder_0/VSS" 50.95
+cap "FullAdder_0/MIRROR_ADDER_0/Cout`" "FullAdder_0/VSS" 203.8
+cap "FullAdder_0/INV_1/A" "FullAdder_1/MIRROR_ADDER_0/C" 156.768
+cap "FullAdder_0/INV_1/VSS" "FullAdder_0/MIRROR_ADDER_0/S`" 647.617
+cap "FullAdder_0/INV_1/VDD" "FullAdder_1/MIRROR_ADDER_0/Cout`" 1105.37
+cap "FullAdder_0/INV_1/VSS" "FullAdder_1/MIRROR_ADDER_0/C" 360.864
+cap "FullAdder_0/INV_1/VSS" "FullAdder_0/INV_1/VDD" 235.224
+cap "FullAdder_1/MIRROR_ADDER_0/C" "FullAdder_1/MIRROR_ADDER_0/Cout`" 202.942
+cap "FullAdder_0/INV_1/VSS" "FullAdder_0/MIRROR_ADDER_0/A" 131.014
+cap "FullAdder_0/INV_1/VSS" "FullAdder_1/MIRROR_ADDER_0/Cout`" 131.256
+cap "FullAdder_1/MIRROR_ADDER_0/C" "FullAdder_0/MIRROR_ADDER_0/C" 534.975
+cap "FullAdder_0/S" "FullAdder_1/MIRROR_ADDER_0/C" 161.609
+cap "FullAdder_1/MIRROR_ADDER_0/C" "FullAdder_0/MIRROR_ADDER_0/S`" 369.66
+cap "FullAdder_0/INV_1/VDD" "FullAdder_1/MIRROR_ADDER_0/C" 563.808
+cap "FullAdder_1/A" "FullAdder_1/VDD" 666.268
+cap "FullAdder_1/VSS" "FullAdder_1/MIRROR_ADDER_0/Cout`" 356.65
+cap "FullAdder_1/B" "FullAdder_1/VDD" 487.943
+cap "FullAdder_1/VDD" "FullAdder_2/C" 156.768
+cap "FullAdder_1/VSS" "FullAdder_1/VDD" 360.864
+cap "FullAdder_1/VDD" "FullAdder_2/MIRROR_ADDER_0/Cout`" 1663.7
+cap "FullAdder_1/VDD" "FullAdder_1/C" 131.256
+cap "FullAdder_1/VSS" "FullAdder_2/MIRROR_ADDER_0/Cout`" 101.9
+cap "FullAdder_1/INV_1/VDD" "FullAdder_2/MIRROR_ADDER_0/C" 563.808
+cap "FullAdder_1/S" "FullAdder_2/MIRROR_ADDER_0/C" 161.609
+cap "FullAdder_1/INV_1/VSS" "FullAdder_1/MIRROR_ADDER_0/B" 131.256
+cap "FullAdder_2/MIRROR_ADDER_0/C" "FullAdder_1/MIRROR_ADDER_0/C" 534.975
+cap "FullAdder_1/INV_1/VDD" "FullAdder_1/INV_1/VSS" 235.224
+cap "FullAdder_2/MIRROR_ADDER_0/C" "FullAdder_2/MIRROR_ADDER_0/Cout`" 249.116
+cap "FullAdder_1/INV_1/VSS" "FullAdder_1/MIRROR_ADDER_0/C" 105.744
+cap "FullAdder_1/INV_1/VSS" "FullAdder_2/MIRROR_ADDER_0/Cout`" 131.256
+cap "FullAdder_2/MIRROR_ADDER_0/C" "FullAdder_1/MIRROR_ADDER_0/S`" 369.66
+cap "FullAdder_1/INV_1/VSS" "FullAdder_1/MIRROR_ADDER_0/S`" 647.617
+cap "FullAdder_1/INV_1/VDD" "FullAdder_2/MIRROR_ADDER_0/Cout`" 1105.37
+cap "FullAdder_1/INV_1/A" "FullAdder_2/MIRROR_ADDER_0/C" 156.768
+cap "FullAdder_1/INV_1/VSS" "FullAdder_2/MIRROR_ADDER_0/C" 492.12
+cap "FullAdder_1/MIRROR_ADDER_0/A" "FullAdder_1/INV_1/VSS" 305.942
+cap "FullAdder_3/MIRROR_ADDER_0/Cout`" "FullAdder_3/MIRROR_ADDER_0/VSS" 152.85
+cap "FullAdder_2/VDD" "FullAdder_3/MIRROR_ADDER_0/VSS" 360.864
+cap "FullAdder_3/B" "FullAdder_2/VDD" 233.193
+cap "FullAdder_3/MIRROR_ADDER_0/VSS" "FullAdder_2/MIRROR_ADDER_0/Cout`" 305.7
+cap "FullAdder_3/C" "FullAdder_2/VDD" 156.768
+cap "FullAdder_2/VDD" "FullAdder_2/A" 666.268
+cap "FullAdder_3/MIRROR_ADDER_0/Cout`" "FullAdder_2/VDD" 1663.7
+cap "FullAdder_2/VDD" "FullAdder_2/B" 462.431
+cap "FullAdder_2/INV_1/VSS" "FullAdder_3/MIRROR_ADDER_0/C" 492.12
+cap "FullAdder_3/MIRROR_ADDER_0/C" "FullAdder_2/MIRROR_ADDER_0/S`" 369.66
+cap "FullAdder_2/INV_1/VSS" "FullAdder_3/MIRROR_ADDER_0/Cout`" 131.256
+cap "FullAdder_3/MIRROR_ADDER_0/C" "FullAdder_2/INV_1/A" 131.256
+cap "FullAdder_2/INV_1/VSS" "FullAdder_2/MIRROR_ADDER_0/S`" 647.617
+cap "FullAdder_2/INV_1/VSS" "FullAdder_3/MIRROR_ADDER_0/B" 131.256
+cap "FullAdder_2/INV_1/VSS" "FullAdder_2/MIRROR_ADDER_0/A" 305.942
+cap "FullAdder_3/MIRROR_ADDER_0/C" "FullAdder_2/S" 161.609
+cap "FullAdder_3/MIRROR_ADDER_0/C" "FullAdder_2/INV_1/VDD" 563.808
+cap "FullAdder_3/MIRROR_ADDER_0/C" "FullAdder_2/MIRROR_ADDER_0/C" 534.975
+cap "FullAdder_2/INV_1/VSS" "FullAdder_2/MIRROR_ADDER_0/B" 105.744
+cap "FullAdder_3/MIRROR_ADDER_0/C" "FullAdder_3/Cout" 101.9
+cap "FullAdder_2/INV_1/VDD" "FullAdder_3/MIRROR_ADDER_0/Cout`" 1105.37
+cap "FullAdder_2/INV_1/VSS" "FullAdder_2/INV_1/VDD" 235.224
+cap "FullAdder_3/Cout" "FullAdder_3/MIRROR_ADDER_0/Cout`" 156.768
+cap "FullAdder_3/S" "FullAdder_3/Cout" 92.348
+cap "FullAdder_3/MIRROR_ADDER_0/C" "FullAdder_3/MIRROR_ADDER_0/Cout`" 249.116
+cap "FullAdder_4/VSS" "FullAdder_4/MIRROR_ADDER_0/Cout`" 203.8
+cap "FullAdder_3/VDD" "FullAdder_4/C" 156.768
+cap "FullAdder_3/VDD" "FullAdder_3/B" 484.025
+cap "FullAdder_3/VDD" "FullAdder_4/MIRROR_ADDER_0/Cout`" 1663.7
+cap "FullAdder_4/VSS" "FullAdder_3/MIRROR_ADDER_0/Cout`" 254.75
+cap "FullAdder_3/VDD" "FullAdder_4/A" 258.668
+cap "FullAdder_3/VDD" "FullAdder_4/B" 284.143
+cap "FullAdder_3/VDD" "FullAdder_3/A" 640.756
+cap "FullAdder_3/VDD" "FullAdder_4/VSS" 360.864
+cap "FullAdder_3/INV_1/VDD" "FullAdder_4/MIRROR_ADDER_0/C" 563.808
+cap "FullAdder_4/Cout" "FullAdder_4/MIRROR_ADDER_0/Cout`" 156.768
+cap "FullAdder_4/INV_1/VSS" "FullAdder_4/MIRROR_ADDER_0/C" 492.12
+cap "FullAdder_4/INV_1/VSS" "FullAdder_4/MIRROR_ADDER_0/B" 131.256
+cap "FullAdder_4/S" "FullAdder_4/Cout" 161.609
+cap "FullAdder_3/INV_1/VDD" "FullAdder_4/MIRROR_ADDER_0/Cout`" 1105.37
+cap "FullAdder_3/MIRROR_ADDER_0/C" "FullAdder_4/MIRROR_ADDER_0/C" 433.075
+cap "FullAdder_4/INV_1/VSS" "FullAdder_3/MIRROR_ADDER_0/S`" 647.617
+cap "FullAdder_4/Cout" "FullAdder_4/MIRROR_ADDER_0/C" 203.8
+cap "FullAdder_4/INV_1/VSS" "FullAdder_4/MIRROR_ADDER_0/Cout`" 131.256
+cap "FullAdder_3/MIRROR_ADDER_0/S`" "FullAdder_4/MIRROR_ADDER_0/C" 369.66
+cap "FullAdder_4/INV_1/VSS" "FullAdder_3/INV_1/VDD" 235.224
+cap "FullAdder_4/MIRROR_ADDER_0/Cout`" "FullAdder_4/MIRROR_ADDER_0/C" 249.116
+cap "FullAdder_4/INV_1/VSS" "FullAdder_4/MIRROR_ADDER_0/A" 189.485
+cap "FullAdder_4/INV_1/VSS" "FullAdder_3/MIRROR_ADDER_0/A" 280.43
+cap "FullAdder_4/VDD" "FullAdder_5/B" 335.093
+cap "FullAdder_5/VSS" "FullAdder_4/MIRROR_ADDER_0/Cout`" 203.8
+cap "FullAdder_4/VDD" "FullAdder_5/C" 156.768
+cap "FullAdder_4/VDD" "FullAdder_4/MIRROR_ADDER_0/B" 382.125
+cap "FullAdder_4/VDD" "FullAdder_5/VSS" 594.168
+cap "FullAdder_4/VDD" "FullAdder_4/A" 407.6
+cap "FullAdder_4/VDD" "FullAdder_5/MIRROR_ADDER_0/Cout`" 1663.7
+cap "FullAdder_5/VSS" "FullAdder_5/MIRROR_ADDER_0/Cout`" 254.75
+cap "FullAdder_4/VDD" "FullAdder_5/A" 360.568
+cap "FullAdder_4/INV_1/VDD" "FullAdder_5/MIRROR_ADDER_0/Cout`" 1105.37
+cap "FullAdder_5/MIRROR_ADDER_0/S`" "FullAdder_5/INV_1/VSS" -23.087
+cap "FullAdder_5/Cout" "FullAdder_5/INV_1/VSS" 258.816
+cap "FullAdder_5/MIRROR_ADDER_0/A" "FullAdder_5/INV_1/VSS" 218.599
+cap "FullAdder_5/MIRROR_ADDER_0/C" "FullAdder_5/INV_1/VSS" 466.608
+cap "FullAdder_5/Cout" "FullAdder_5/MIRROR_ADDER_0/C" 305.7
+cap "FullAdder_4/INV_1/VDD" "FullAdder_5/INV_1/VSS" 235.224
+cap "FullAdder_5/S" "FullAdder_5/Cout" 161.609
+cap "FullAdder_5/MIRROR_ADDER_0/Cout`" "FullAdder_5/INV_1/VSS" 131.256
+cap "FullAdder_5/Cout" "FullAdder_5/MIRROR_ADDER_0/Cout`" 156.768
+cap "FullAdder_4/MIRROR_ADDER_0/S`" "FullAdder_5/INV_1/VSS" 647.617
+cap "FullAdder_5/MIRROR_ADDER_0/B" "FullAdder_5/INV_1/VSS" 131.256
+cap "FullAdder_5/MIRROR_ADDER_0/C" "FullAdder_4/MIRROR_ADDER_0/C" 331.175
+cap "FullAdder_4/INV_1/VDD" "FullAdder_5/MIRROR_ADDER_0/C" 563.808
+cap "FullAdder_5/MIRROR_ADDER_0/C" "FullAdder_5/MIRROR_ADDER_0/Cout`" 249.116
+cap "FullAdder_5/INV_1/VSS" "FullAdder_4/MIRROR_ADDER_0/A" 131.014
+cap "FullAdder_5/MIRROR_ADDER_0/C" "FullAdder_4/MIRROR_ADDER_0/S`" 369.66
+cap "FullAdder_5/VDD" "FullAdder_6/VSS" 462.912
+cap "FullAdder_6/VSS" "FullAdder_6/MIRROR_ADDER_0/Cout`" 305.7
+cap "FullAdder_5/VDD" "FullAdder_5/MIRROR_ADDER_0/B" 280.225
+cap "FullAdder_5/VDD" "FullAdder_6/A" 462.468
+cap "FullAdder_6/VSS" "FullAdder_5/MIRROR_ADDER_0/Cout`" 152.85
+cap "FullAdder_5/VDD" "FullAdder_5/MIRROR_ADDER_0/A" 305.7
+cap "FullAdder_5/VDD" "FullAdder_6/B" 386.043
+cap "FullAdder_5/VDD" "FullAdder_6/C" 156.768
+cap "FullAdder_5/VDD" "FullAdder_6/MIRROR_ADDER_0/Cout`" 1663.7
+cap "FullAdder_6/INV_1/VSS" "FullAdder_6/MIRROR_ADDER_0/B" 131.256
+cap "FullAdder_6/INV_1/A" "FullAdder_6/MIRROR_ADDER_0/C" 249.116
+cap "FullAdder_6/MIRROR_ADDER_0/C" "FullAdder_5/MIRROR_ADDER_0/C" 229.275
+cap "FullAdder_6/INV_1/VSS" "FullAdder_6/Cout" 360.864
+cap "FullAdder_6/INV_1/A" "FullAdder_5/INV_1/VDD" 1105.37
+cap "FullAdder_6/INV_1/VSS" "FullAdder_6/MIRROR_ADDER_0/C" 233.304
+cap "FullAdder_6/INV_1/VSS" "FullAdder_5/MIRROR_ADDER_0/S`" 670.704
+cap "FullAdder_6/MIRROR_ADDER_0/C" "FullAdder_6/Cout" 407.6
+cap "FullAdder_6/MIRROR_ADDER_0/S`" "FullAdder_6/INV_1/VSS" 78.961
+cap "FullAdder_5/INV_1/VDD" "FullAdder_6/INV_1/VSS" 235.224
+cap "FullAdder_6/MIRROR_ADDER_0/C" "FullAdder_5/MIRROR_ADDER_0/S`" 369.66
+cap "FullAdder_6/S" "FullAdder_6/Cout" 161.609
+cap "FullAdder_5/INV_1/VDD" "FullAdder_6/MIRROR_ADDER_0/C" 563.808
+cap "FullAdder_6/INV_1/VSS" "FullAdder_5/MIRROR_ADDER_0/A" 145.571
+cap "FullAdder_6/MIRROR_ADDER_0/A" "FullAdder_6/INV_1/VSS" 247.713
+cap "FullAdder_6/INV_1/A" "FullAdder_6/INV_1/VSS" 131.256
+cap "FullAdder_6/INV_1/A" "FullAdder_6/Cout" 156.768
+cap "FullAdder_6/VDD" "FullAdder_7/C" 156.768
+cap "FullAdder_7/VSS" "FullAdder_6/VDD" 360.864
+cap "FullAdder_6/VDD" "FullAdder_6/MIRROR_ADDER_0/B" 178.325
+cap "FullAdder_6/VDD" "FullAdder_7/A" 564.368
+cap "FullAdder_7/VSS" "FullAdder_6/MIRROR_ADDER_0/Cout`" 101.9
+cap "FullAdder_6/VDD" "FullAdder_6/MIRROR_ADDER_0/A" 203.8
+cap "FullAdder_7/MIRROR_ADDER_0/Cout`" "FullAdder_7/VSS" 229.275
+cap "FullAdder_6/VDD" "FullAdder_7/B" 436.993
+cap "FullAdder_7/MIRROR_ADDER_0/Cout`" "FullAdder_6/VDD" 1663.7
+cap "FullAdder_7/MIRROR_ADDER_0/S`" "FullAdder_7/INV_1/VSS" -23.087
+cap "FullAdder_7/INV_1/VSS" "FullAdder_6/INV_1/VDD" 235.224
+cap "FullAdder_6/MIRROR_ADDER_0/C" "FullAdder_7/MIRROR_ADDER_0/C" 127.375
+cap "FullAdder_7/INV_1/VSS" "FullAdder_7/MIRROR_ADDER_0/C" 131.256
+cap "FullAdder_7/MIRROR_ADDER_0/A" "FullAdder_7/INV_1/VSS" 204.042
+cap "FullAdder_6/MIRROR_ADDER_0/S`" "FullAdder_7/MIRROR_ADDER_0/C" 369.66
+cap "FullAdder_7/INV_1/VSS" "FullAdder_7/MIRROR_ADDER_0/Cout`" 131.256
+cap "FullAdder_6/INV_1/VDD" "FullAdder_7/MIRROR_ADDER_0/C" 563.808
+cap "FullAdder_7/INV_1/VSS" "FullAdder_6/MIRROR_ADDER_0/A" 87.3429
+cap "FullAdder_6/INV_1/VDD" "FullAdder_7/MIRROR_ADDER_0/Cout`" 1105.37
+cap "FullAdder_7/INV_1/VSS" "FullAdder_7/MIRROR_ADDER_0/B" 131.256
+cap "FullAdder_7/INV_1/VSS" "FullAdder_6/MIRROR_ADDER_0/S`" 543.144
+cap "FullAdder_7/MIRROR_ADDER_0/C" "FullAdder_7/MIRROR_ADDER_0/Cout`" 249.116
+cap "FullAdder_7/MIRROR_ADDER_0/VDD" "FullAdder_7/MIRROR_ADDER_0/B" 76.425
+cap "FullAdder_7/MIRROR_ADDER_0/VDD" "FullAdder_7/MIRROR_ADDER_0/A" 101.9
+cap "FullAdder_7/MIRROR_ADDER_0/VDD" "FullAdder_7/MIRROR_ADDER_0/VDD" 110.736
+merge "FullAdder_5/MIRROR_ADDER_0/C" "FullAdder_4/Cout" -672.372 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 -28 0 0 0 0
+merge "FullAdder_4/Cout" "m1_123_436#"
+merge "FullAdder_2/MIRROR_ADDER_0/C" "FullAdder_1/Cout" -672.372 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 -28 0 0 0 0
+merge "FullAdder_1/Cout" "m1_123_160#"
+merge "FullAdder_7/MIRROR_ADDER_0/C" "FullAdder_6/Cout" -672.372 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 -28 0 0 0 0
+merge "FullAdder_6/Cout" "m1_123_620#"
+merge "FullAdder_4/MIRROR_ADDER_0/C" "FullAdder_3/Cout" -672.372 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 -28 0 0 0 0
+merge "FullAdder_3/Cout" "m1_123_344#"
+merge "FullAdder_7/INV_1/VSS" "FullAdder_7/VSS" -4102.67 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -128 -164 0 0 0 0
+merge "FullAdder_7/VSS" "FullAdder_6/INV_1/VSS"
+merge "FullAdder_6/INV_1/VSS" "FullAdder_6/VSS"
+merge "FullAdder_6/VSS" "FullAdder_5/INV_1/VSS"
+merge "FullAdder_5/INV_1/VSS" "FullAdder_5/VSS"
+merge "FullAdder_5/VSS" "FullAdder_3/INV_1/VSS"
+merge "FullAdder_3/INV_1/VSS" "FullAdder_4/INV_1/VSS"
+merge "FullAdder_4/INV_1/VSS" "FullAdder_3/VSS"
+merge "FullAdder_3/VSS" "FullAdder_4/VSS"
+merge "FullAdder_4/VSS" "FullAdder_2/INV_1/VSS"
+merge "FullAdder_2/INV_1/VSS" "FullAdder_2/VSS"
+merge "FullAdder_2/VSS" "FullAdder_3/MIRROR_ADDER_0/VSS"
+merge "FullAdder_3/MIRROR_ADDER_0/VSS" "FullAdder_1/INV_1/VSS"
+merge "FullAdder_1/INV_1/VSS" "FullAdder_1/VSS"
+merge "FullAdder_1/VSS" "FullAdder_0/INV_1/VSS"
+merge "FullAdder_0/INV_1/VSS" "FullAdder_0/VSS"
+merge "FullAdder_0/VSS" "m1_94_0#"
+merge "FullAdder_7/MIRROR_ADDER_0/VDD" "FullAdder_6/VDD" -4257.5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -128 -128 -128 -68 0 0
+merge "FullAdder_6/VDD" "FullAdder_5/VDD"
+merge "FullAdder_5/VDD" "FullAdder_4/VDD"
+merge "FullAdder_4/VDD" "FullAdder_3/VDD"
+merge "FullAdder_3/VDD" "FullAdder_2/VDD"
+merge "FullAdder_2/VDD" "FullAdder_1/VDD"
+merge "FullAdder_1/VDD" "FullAdder_0/VDD"
+merge "FullAdder_0/VDD" "m1_54_52#"
+merge "FullAdder_3/MIRROR_ADDER_0/C" "FullAdder_2/Cout" -707.742 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 -34 0 0 0 0
+merge "FullAdder_2/Cout" "m1_123_252#"
+merge "FullAdder_6/MIRROR_ADDER_0/C" "FullAdder_5/Cout" -672.372 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 -28 0 0 0 0
+merge "FullAdder_5/Cout" "m1_123_528#"
+merge "FullAdder_0/Cout" "FullAdder_1/MIRROR_ADDER_0/C" -534.672 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0
+merge "FullAdder_1/MIRROR_ADDER_0/C" "m1_123_68#"

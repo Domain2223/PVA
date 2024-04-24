@@ -1,0 +1,104 @@
+magic
+tech scmos
+timestamp 1713982514
+<< metal1 >>
+rect 123 620 127 624
+rect 131 536 161 540
+rect 123 528 127 532
+rect 131 444 161 448
+rect 123 436 127 440
+rect 131 352 161 356
+rect 123 344 127 348
+rect 131 260 161 264
+rect 123 252 127 256
+rect 131 168 161 172
+rect 123 160 127 164
+rect 131 76 161 80
+rect 123 68 127 72
+rect 131 -16 155 -12
+<< m2contact >>
+rect 54 696 58 700
+rect 94 644 98 648
+rect 127 620 131 624
+rect 54 604 58 608
+rect 94 552 98 556
+rect 127 536 131 540
+rect 127 528 131 532
+rect 54 512 58 516
+rect 94 460 98 464
+rect 127 444 131 448
+rect 127 436 131 440
+rect 54 420 58 424
+rect 94 368 98 372
+rect 127 352 131 356
+rect 127 344 131 348
+rect 54 328 58 332
+rect 94 276 98 280
+rect 127 260 131 264
+rect 127 252 131 256
+rect 54 236 58 240
+rect 94 184 98 188
+rect 127 168 131 172
+rect 127 160 131 164
+rect 54 144 58 148
+rect 94 92 98 96
+rect 127 76 131 80
+rect 127 68 131 72
+rect 54 52 58 56
+rect 94 0 98 4
+rect 127 -16 131 -12
+<< metal2 >>
+rect 54 608 58 696
+rect 54 516 58 604
+rect 54 424 58 512
+rect 54 332 58 420
+rect 54 240 58 328
+rect 54 148 58 236
+rect 54 56 58 144
+rect 94 556 98 644
+rect 94 464 98 552
+rect 127 540 131 620
+rect 94 372 98 460
+rect 127 448 131 528
+rect 94 280 98 368
+rect 127 356 131 436
+rect 94 188 98 276
+rect 127 264 131 344
+rect 94 96 98 184
+rect 127 172 131 252
+rect 94 4 98 92
+rect 127 80 131 160
+rect 127 -12 131 68
+use FullAdder  FullAdder_0
+timestamp 1713982514
+transform 1 0 0 0 1 0
+box -6 -32 165 62
+use FullAdder  FullAdder_1
+timestamp 1713982514
+transform 1 0 0 0 1 92
+box -6 -32 165 62
+use FullAdder  FullAdder_2
+timestamp 1713982514
+transform 1 0 0 0 1 184
+box -6 -32 165 62
+use FullAdder  FullAdder_3
+timestamp 1713982514
+transform 1 0 0 0 1 276
+box -6 -32 165 62
+use FullAdder  FullAdder_4
+timestamp 1713982514
+transform 1 0 0 0 1 368
+box -6 -32 165 62
+use FullAdder  FullAdder_5
+timestamp 1713982514
+transform 1 0 0 0 1 460
+box -6 -32 165 62
+use FullAdder  FullAdder_6
+timestamp 1713982514
+transform 1 0 0 0 1 552
+box -6 -32 165 62
+use FullAdder  FullAdder_7
+timestamp 1713982514
+transform 1 0 0 0 1 644
+box -6 -32 165 62
+<< end >>

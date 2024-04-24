@@ -1,0 +1,50 @@
+timestamp 1713982514
+version 8.3
+tech scmos
+style HP0.5um(hpcmos14tb)from:N9AE
+scale 1000 1 30
+resistclasses 2800 2300 713000 713000 1 2500 2500 70 70 50
+use MIRROR_ADDER MIRROR_ADDER_0 1 0 0 0 1 0
+use INV INV_1 1 0 145 0 1 0
+use INV INV_0 1 0 129 0 1 0
+node "C" 0 184.86 22 -24 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 20 0 0 0 0
+node "m1_112_n16#" 0 138.96 112 -16 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "B" 0 506.16 0 -16 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 80 48 0 0 0 0
+node "A" 0 322.56 0 -8 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48 32 0 0 0 0
+node "VSS" 0 368.46 0 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 56 36 0 0 0 0
+node "Cout" 1 641.916 155 -16 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 40 36 160 88 0 0
+node "m1_131_n32#" 2 1119.89 131 -32 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 64 224 120 0 0
+node "S" 1 969.948 139 -8 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 104 68 128 72 0 0
+node "m1_131_20#" 0 414.36 131 20 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 64 40 0 0 0 0
+node "VDD" 0 368.46 0 52 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 56 36 0 0 0 0
+cap "Cout" "S" 249.116
+cap "B" "A" 138.522
+cap "Cout" "m1_131_n32#" 555.674
+cap "m1_131_20#" "S" 46.174
+cap "VSS" "A" 138.522
+cap "S" "m1_131_n32#" 457.692
+cap "MIRROR_ADDER_0/A" "MIRROR_ADDER_0/VSS" -69.261
+cap "MIRROR_ADDER_0/A" "MIRROR_ADDER_0/B" -5.11591e-13
+cap "INV_1/Y" "INV_1/VSS" 156.768
+cap "MIRROR_ADDER_0/S`" "INV_0/Y" 115.435
+cap "INV_0/Y" "INV_1/VSS" 433.812
+cap "MIRROR_ADDER_0/S`" "INV_1/VDD" 172.714
+cap "INV_1/A" "INV_0/Y" 46.174
+cap "INV_0/Y" "INV_1/VDD" 92.348
+cap "INV_1/A" "INV_1/VSS" 274.992
+merge "INV_1/A" "MIRROR_ADDER_0/Cout`" -215.856 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0
+merge "MIRROR_ADDER_0/Cout`" "m1_131_n32#"
+merge "MIRROR_ADDER_0/B" "m1_112_n16#" -332.604 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -40 -36 0 0 0 0
+merge "m1_112_n16#" "B"
+merge "MIRROR_ADDER_0/A" "A" -193.644 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 -20 0 0 0 0
+merge "INV_0/VSS" "INV_1/VSS" -462.78 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -56 -52 0 0 0 0
+merge "INV_1/VSS" "MIRROR_ADDER_0/VSS"
+merge "MIRROR_ADDER_0/VSS" "VSS"
+merge "INV_0/VDD" "INV_1/VDD" -3837.06 0 0 0 0 -410 -128 0 0 0 0 0 0 0 0 -56 -52 0 0 0 0
+merge "INV_1/VDD" "MIRROR_ADDER_0/VDD"
+merge "MIRROR_ADDER_0/VDD" "VDD"
+merge "INV_0/Y" "S" -260.496 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "MIRROR_ADDER_0/C" "C" -184.86 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 -20 0 0 0 0
+merge "INV_1/Y" "Cout" -260.496 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "INV_0/A" "MIRROR_ADDER_0/S`" -220.86 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0
+merge "MIRROR_ADDER_0/S`" "m1_131_20#"

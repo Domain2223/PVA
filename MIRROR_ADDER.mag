@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1711560202
+timestamp 1713982514
 << nwell >>
 rect -6 38 135 62
 << ntransistor >>
@@ -127,9 +127,9 @@ rect 63 28 65 44
 rect 71 28 73 44
 rect 79 28 81 44
 rect 87 28 89 44
-rect 106 28 108 44
-rect 113 28 115 44
-rect 120 28 122 44
+rect 106 24 108 44
+rect 113 24 115 44
+rect 120 24 122 44
 rect 7 12 9 24
 rect 15 12 17 24
 rect 23 12 25 24
@@ -139,9 +139,9 @@ rect 63 12 65 24
 rect 71 12 73 24
 rect 79 12 81 24
 rect 87 12 89 24
-rect 106 12 108 24
-rect 113 12 115 24
-rect 120 12 122 24
+rect 106 12 108 20
+rect 113 12 115 20
+rect 120 12 122 20
 rect 7 6 9 8
 rect 15 6 17 8
 rect 23 6 25 8
@@ -164,9 +164,9 @@ rect 62 24 66 28
 rect 70 24 74 28
 rect 78 24 82 28
 rect 86 24 90 28
-rect 105 24 109 28
-rect 112 24 116 28
-rect 119 24 123 28
+rect 105 20 109 24
+rect 112 20 116 24
+rect 119 20 123 24
 << metal1 >>
 rect 0 52 10 56
 rect 14 52 129 56
@@ -188,9 +188,9 @@ rect 90 40 94 44
 rect 98 40 102 44
 rect 90 36 102 40
 rect 30 32 34 36
-rect 98 32 102 36
+rect 98 32 131 36
 rect 30 20 34 28
-rect 98 20 102 28
+rect 98 20 102 32
 rect 2 16 22 20
 rect 2 12 6 16
 rect 18 12 22 16
@@ -219,6 +219,7 @@ rect 74 -16 112 -12
 rect 26 -24 78 -20
 rect 82 -24 119 -20
 rect 34 -32 86 -28
+rect 90 -32 131 -28
 << m2contact >>
 rect 6 28 10 32
 rect 14 28 18 32
@@ -230,10 +231,9 @@ rect 62 28 66 32
 rect 70 28 74 32
 rect 78 28 82 32
 rect 86 28 90 32
-rect 98 28 102 32
-rect 105 28 109 32
-rect 112 28 116 32
-rect 119 28 123 32
+rect 105 24 109 28
+rect 112 24 116 28
+rect 119 24 123 28
 rect 6 -8 10 -4
 rect 38 -8 42 -4
 rect 62 -8 66 -4
@@ -247,7 +247,6 @@ rect 78 -24 82 -20
 rect 119 -24 123 -20
 rect 30 -32 34 -28
 rect 86 -32 90 -28
-rect 98 -32 102 -28
 << metal2 >>
 rect 6 -4 10 28
 rect 14 -12 18 28
@@ -259,10 +258,9 @@ rect 62 -4 66 28
 rect 70 -12 74 28
 rect 78 -20 82 28
 rect 86 -28 90 28
-rect 98 -28 102 28
-rect 105 -4 109 28
-rect 112 -12 116 28
-rect 119 -20 123 28
+rect 105 -4 109 24
+rect 112 -12 116 24
+rect 119 -20 123 24
 << labels >>
 rlabel metal1 32 21 32 21 1 Cout`
 rlabel nsubstratencontact 12 54 12 54 1 VDD

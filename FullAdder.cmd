@@ -1,6 +1,6 @@
 h VDD
 l VSS
-analyzer A B C Cout` S`
+analyzer A B C Cout S
 l A
 l B
 l C
