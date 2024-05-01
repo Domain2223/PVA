@@ -1,7 +1,7 @@
 magic
 tech scmos
 timestamp 1711596499
-use INV  INV_0
+use INV  INV_0 ~/cmpe480-s24/PVA
 timestamp 1711561836
 transform 1 0 4 0 1 -1
 box -4 0 20 59
