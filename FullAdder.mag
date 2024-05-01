@@ -23,7 +23,7 @@ rect 147 -32 151 -28
 rect 139 -4 143 20
 rect 147 -28 151 20
 rect 155 -12 159 20
-use INV  INV_0 ~/cmpe480-s24/PVA
+use INV  INV_0
 timestamp 1711561836
 transform 1 0 129 0 1 0
 box -4 0 20 59
