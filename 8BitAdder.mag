@@ -1,21 +1,47 @@
 magic
 tech scmos
-timestamp 1713982514
+timestamp 1714603105
 << metal1 >>
+rect 0 636 6 640
+rect 155 636 161 640
+rect 0 628 6 632
+rect 155 628 161 632
 rect 123 620 127 624
+rect 0 544 6 548
+rect 155 544 161 548
+rect 0 536 6 540
 rect 131 536 161 540
 rect 123 528 127 532
+rect 0 452 6 456
+rect 155 452 161 456
+rect 0 444 6 448
 rect 131 444 161 448
 rect 123 436 127 440
+rect 0 360 6 364
+rect 155 360 161 364
+rect 0 352 6 356
 rect 131 352 161 356
 rect 123 344 127 348
+rect 0 268 6 272
+rect 155 268 161 272
+rect 0 260 6 264
 rect 131 260 161 264
 rect 123 252 127 256
+rect 0 176 6 180
+rect 155 176 161 180
+rect 0 168 6 172
 rect 131 168 161 172
 rect 123 160 127 164
+rect 0 84 10 88
+rect 155 84 161 88
+rect 0 76 10 80
 rect 131 76 161 80
 rect 123 68 127 72
+rect 0 -8 10 -4
+rect 155 -8 161 -4
+rect 0 -16 10 -12
 rect 131 -16 155 -12
+rect 22 -24 32 -20
 << m2contact >>
 rect 54 696 58 700
 rect 94 644 98 648
@@ -101,4 +127,33 @@ use FullAdder  FullAdder_7
 timestamp 1713982514
 transform 1 0 0 0 1 644
 box -6 -32 165 62
+<< labels >>
+rlabel metal1 1 -6 1 -6 1 A0
+rlabel metal1 1 -14 1 -14 1 B0
+rlabel metal1 24 -22 24 -22 1 Cin
+rlabel metal1 1 86 1 86 1 A1
+rlabel metal1 1 78 1 78 1 B1
+rlabel metal1 1 178 1 178 1 A2
+rlabel metal1 1 170 1 170 1 B2
+rlabel metal1 1 270 1 270 1 A3
+rlabel metal1 1 262 1 262 1 B3
+rlabel metal1 1 362 1 362 1 A4
+rlabel metal1 1 354 1 354 1 B4
+rlabel metal1 1 454 1 454 1 A5
+rlabel metal1 1 446 1 446 1 B5
+rlabel metal1 1 538 1 538 1 B6
+rlabel metal1 1 546 1 546 1 A6
+rlabel metal1 1 630 1 630 1 B7
+rlabel metal1 1 638 1 638 1 A7
+rlabel metal1 160 638 160 638 7 S7
+rlabel metal1 160 630 160 630 7 Cout
+rlabel metal1 160 546 160 546 7 S6
+rlabel metal1 160 454 160 454 7 S5
+rlabel metal1 160 362 160 362 7 S4
+rlabel metal1 160 270 160 270 7 S3
+rlabel metal1 160 178 160 178 7 S2
+rlabel metal1 160 86 160 86 7 S1
+rlabel metal1 160 -6 160 -6 7 S0
+rlabel m2contact 96 2 96 2 1 VSS
+rlabel m2contact 56 55 56 55 1 VDD
 << end >>
