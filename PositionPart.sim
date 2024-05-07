@@ -983,42 +983,21 @@ n en VSS RegEn8_0/DFFMUX_7/mux_0/INV_0/Y 2 4 770 712
 p en VDD RegEn8_0/DFFMUX_7/mux_0/INV_0/Y 2 8 770 744
 n rot1 VSS rot1` 2 4 414 489
 p rot1 VDD rot1` 2 8 414 521
-C 8BitAdder_0/FullAdder_3/C Q3 3.43
-C 8BitAdder_0/FullAdder_3/INV_1/A VDD 4.02
-C VDD Q7 14.87
-C RegEn8_0/DFFMUX_2/DFlipFlop_0/NAND3_5/B VDD 2.62
-C RegEn8_0/DFFMUX_3/DFlipFlop_0/NAND3_4/A RST 2.72
-C r2r` q2 4.60
-C rot1` Q5 5.18
-C RegEn8_0/DFFMUX_7/DFlipFlop_0/NAND3_4/A VSS 2.33
-C RST RotationDetector_0/2A4O2DFF_0/DFlipFlop_0/NAND3_4/A 2.72
-C RegEn8_0/DFFMUX_1/DFlipFlop_0/NAND3_4/A VSS 2.33
-C q1b q2b 2.46
-C VDD RotationDetector_0/A3O2DFF_0/DFlipFlop_0/NAND3_5/B 6.01
-C s2` s1` 2.46
-C Q6 VSS 2.93
-C Q0 VSS 6.69
-C VDD 8BitAdder_0/FullAdder_0/INV_1/A 2.32
-C en VSS 12.01
-C VDD RegEn8_0/DFFMUX_5/DFlipFlop_0/NAND3_5/B 2.62
-C RST RegEn8_0/DFFMUX_6/DFlipFlop_0/NAND3_4/A 2.72
-C Q6 Q7 21.48
-C RotationDetector_1/A3O2DFF_0/DFlipFlop_0/NAND3_4/A RST 2.72
 C 8BitAdder_0/FullAdder_4/INV_1/A 8BitAdder_0/FullAdder_4/C 3.00
-C Q2 VDD 14.98
-C VDD q2 3.10
+C Q2 VDD 15.14
 C Q2 Q3 25.34
 C RegEn8_0/DFFMUX_2/DFlipFlop_0/NAND3_4/A VSS 2.33
-C 8BitAdder_0/FullAdder_7/INV_1/A 8BitAdder_0/FullAdder_7/C 3.00
 C 8BitAdder_0/FullAdder_4/C Q4 3.43
+C 8BitAdder_0/FullAdder_7/INV_1/A 8BitAdder_0/FullAdder_7/C 3.00
 C s1` VSS 2.06
+C q2 q2b 11.22
 C q1b VSS 2.03
 C s2` VSS 2.19
 C q1b bwd 3.43
-C Q1 VSS 3.17
+C Q1 VSS 3.33
 C s1 s1` 11.22
 C s2` fwd 3.43
-C VDD Q5 14.98
+C VDD Q5 15.13
 C rot1` VDD 21.94
 C RegEn8_0/DFFMUX_0/DFlipFlop_0/NAND3_4/A VSS 2.33
 C r2r` RST 2.01
@@ -1026,63 +1005,62 @@ C RotationDetector_1/INV_0/Y RST 2.01
 C rot1` Q3 5.48
 C RegEn8_0/DFFMUX_5/DFlipFlop_0/NAND3_4/A VSS 2.33
 C RegEn8_0/DFFMUX_0/DFlipFlop_0/NAND3_5/B VDD 2.62
-C Q2 8BitAdder_0/FullAdder_2/C 3.43
 C CLK RST 39.92
-C RST RotationDetector_0/A3O2DFF_0/DFlipFlop_0/NAND3_4/A 2.72
-C Q4 VSS 2.93
+C 8BitAdder_0/FullAdder_0/INV_1/A VSS 3.71
 C 8BitAdder_0/FullAdder_7/C VDD 2.15
+C Q4 VSS 3.09
 C r2r` VDD 7.79
 C 8BitAdder_0/FullAdder_7/INV_1/A VDD 4.02
+C RotationDetector_0/2A4O2DFF_0/DFlipFlop_0/NAND3_4/A VSS 2.33
 C RotationDetector_1/INV_0/Y VDD 7.79
 C RegEn8_0/DFFMUX_3/DFlipFlop_0/NAND3_5/B VDD 2.62
 C RotationDetector_1/2A4O2DFF_0/DFlipFlop_0/NAND3_4/A VSS 2.33
 C RST RegEn8_0/DFFMUX_4/DFlipFlop_0/NAND3_4/A 2.72
+C q2 VSS 2.42
 C Q5 Q6 22.45
 C rot1` Q6 4.70
 C RST VDD 18.13
 C bwd fwd 2.45
-C s1 VSS 2.57
+C s1 VSS 2.79
 C 8BitAdder_0/FullAdder_5/C Q5 3.43
 C CLK VDD 13.81
-C q2b q2 11.22
-C VSS Q7 2.93
+C VSS Q7 3.09
+C 8BitAdder_0/FullAdder_2/C VDD 2.15
 C Q1 Q2 26.32
 C 8BitAdder_0/FullAdder_1/C VDD 2.12
 C 8BitAdder_0/FullAdder_3/INV_1/A 8BitAdder_0/FullAdder_3/C 3.00
 C VDD RegEn8_0/DFFMUX_6/DFlipFlop_0/NAND3_5/B 2.62
+C RotationDetector_0/2A4O2DFF_0/DFlipFlop_0/NAND3_5/B VDD 2.62
 C RST RegEn8_0/DFFMUX_7/DFlipFlop_0/NAND3_4/A 2.72
 C 8BitAdder_0/FullAdder_6/C VDD 2.15
 C RotationDetector_1/2A4O2DFF_0/DFlipFlop_0/NAND3_5/B VDD 2.62
 C RegEn8_0/DFFMUX_1/DFlipFlop_0/NAND3_4/A RST 2.72
 C 8BitAdder_0/FullAdder_6/INV_1/A 8BitAdder_0/FullAdder_6/C 3.00
 C 8BitAdder_0/FullAdder_6/INV_1/A VDD 4.02
-C Q3 VDD 13.39
+C Q3 VDD 13.55
 C q1 VDD 3.88
-C VSS 8BitAdder_0/FullAdder_0/INV_1/A 3.71
 C s2 VDD 4.03
 C Q0 RST 2.36
 C rot1` Q1 5.95
 C RegEn8_0/DFFMUX_3/DFlipFlop_0/NAND3_4/A VSS 2.33
-C VSS RotationDetector_0/2A4O2DFF_0/DFlipFlop_0/NAND3_4/A 2.33
-C Q2 VSS 3.06
-C VSS q2 2.42
+C Q2 VSS 3.22
 C 8BitAdder_0/FullAdder_6/C Q6 3.43
-C VDD Q6 14.93
+C VDD Q6 15.08
 C RegEn8_0/DFFMUX_1/DFlipFlop_0/NAND3_5/B VDD 2.62
-C Q0 VDD 22.50
+C Q0 VDD 22.65
 C 8BitAdder_0/FullAdder_5/C VDD 2.15
 C RegEn8_0/DFFMUX_2/DFlipFlop_0/NAND3_4/A RST 2.72
-C VDD 8BitAdder_0/FullAdder_2/C 2.15
-C rot1` Q4 5.20
 C Q4 Q5 23.41
+C rot1` Q4 5.20
 C RegEn8_0/DFFMUX_6/DFlipFlop_0/NAND3_4/A VSS 2.33
-C en VDD 11.83
+C RotationDetector_0/A3O2DFF_0/DFlipFlop_0/NAND3_4/A VSS 2.33
+C en VDD 11.99
 C RotationDetector_1/A3O2DFF_0/DFlipFlop_0/NAND3_4/A VSS 2.33
 C 8BitAdder_0/FullAdder_5/INV_1/A VDD 4.02
+C 8BitAdder_0/FullAdder_2/C 8BitAdder_0/FullAdder_2/INV_1/A 3.00
 C q1b CLK 3.01
-C VDD RotationDetector_0/2A4O2DFF_0/DFlipFlop_0/NAND3_5/B 2.62
-C Q5 VSS 2.93
-C rot1` VSS 18.13
+C Q5 VSS 3.09
+C rot1` VSS 18.20
 C s2` CLK 3.01
 C RegEn8_0/DFFMUX_0/DFlipFlop_0/NAND3_4/A RST 2.72
 C 8BitAdder_0/FullAdder_2/INV_1/A VDD 4.02
@@ -1096,7 +1074,7 @@ C s1` VDD 3.59
 C q1b VDD 2.81
 C s2` VDD 2.97
 C 8BitAdder_0/FullAdder_1/INV_1/A VDD 4.02
-C Q1 VDD 15.06
+C Q1 VDD 15.21
 C q1 q2b 11.18
 C r2r` VSS 2.59
 C 8BitAdder_0/FullAdder_4/C VDD 2.15
@@ -1104,20 +1082,22 @@ C s2 s1` 11.18
 C q1 q1b 8.33
 C RotationDetector_1/INV_0/Y VSS 2.63
 C r2r` bwd 7.51
+C q2 r2r` 4.60
 C s2 s2` 8.33
 C RotationDetector_1/INV_0/Y fwd 7.51
+C RotationDetector_0/2A4O2DFF_0/DFlipFlop_0/NAND3_4/A RST 2.72
 C 8BitAdder_0/FullAdder_5/INV_1/A 8BitAdder_0/FullAdder_5/C 3.00
 C s1 RotationDetector_1/INV_0/Y 4.60
 C 8BitAdder_0/FullAdder_4/INV_1/A VDD 4.02
 C RotationDetector_1/2A4O2DFF_0/DFlipFlop_0/NAND3_4/A RST 2.72
 C 8BitAdder_0/FullAdder_7/C Q7 3.43
 C RST VSS 5.80
+C RotationDetector_0/A3O2DFF_0/DFlipFlop_0/NAND3_5/B VDD 6.01
 C VDD RegEn8_0/DFFMUX_7/DFlipFlop_0/NAND3_5/B 2.62
 C RotationDetector_1/A3O2DFF_0/DFlipFlop_0/NAND3_5/B VDD 6.01
 C CLK VSS 5.21
-C VSS RotationDetector_0/A3O2DFF_0/DFlipFlop_0/NAND3_4/A 2.33
-C 8BitAdder_0/FullAdder_2/INV_1/A 8BitAdder_0/FullAdder_2/C 3.00
-C VDD Q4 15.03
+C 8BitAdder_0/FullAdder_0/INV_1/A VDD 2.32
+C VDD Q4 15.18
 C Q3 Q4 24.38
 C rot1` Q2 5.70
 C RegEn8_0/DFFMUX_4/DFlipFlop_0/NAND3_4/A VSS 2.33
@@ -1125,9 +1105,29 @@ C Q0 Q1 27.77
 C VDD VSS 23.44
 C bwd VDD 2.61
 C fwd VDD 2.91
+C q2 VDD 3.10
 C s1 VDD 3.46
 C 8BitAdder_0/FullAdder_3/C VDD 2.15
-C Q3 VSS 3.09
+C Q3 VSS 3.24
+C 8BitAdder_0/FullAdder_3/C Q3 3.43
+C 8BitAdder_0/FullAdder_3/INV_1/A VDD 4.02
+C VDD Q7 15.03
+C RegEn8_0/DFFMUX_2/DFlipFlop_0/NAND3_5/B VDD 2.62
+C RegEn8_0/DFFMUX_3/DFlipFlop_0/NAND3_4/A RST 2.72
+C rot1` Q5 5.18
+C RegEn8_0/DFFMUX_7/DFlipFlop_0/NAND3_4/A VSS 2.33
+C RegEn8_0/DFFMUX_1/DFlipFlop_0/NAND3_4/A VSS 2.33
+C q1b q2b 2.46
+C s2` s1` 2.46
+C Q6 VSS 3.09
+C Q0 VSS 6.85
+C en VSS 12.17
+C 8BitAdder_0/FullAdder_2/C Q2 3.43
+C VDD RegEn8_0/DFFMUX_5/DFlipFlop_0/NAND3_5/B 2.62
+C RST RegEn8_0/DFFMUX_6/DFlipFlop_0/NAND3_4/A 2.72
+C RotationDetector_0/A3O2DFF_0/DFlipFlop_0/NAND3_4/A RST 2.72
+C Q6 Q7 21.48
+C RotationDetector_1/A3O2DFF_0/DFlipFlop_0/NAND3_4/A RST 2.72
 R RegEn8_0/DFFMUX_7/mux_0/OR2_0/A 63
 = RegEn8_0/DFFMUX_7/mux_0/OR2_0/A RegEn8_0/DFFMUX_7/mux_0/OR2_0/NOR2_0/A
 = RegEn8_0/DFFMUX_7/mux_0/OR2_0/A RegEn8_0/DFFMUX_7/mux_0/AND2_1/Y
@@ -1158,7 +1158,7 @@ C RegEn8_0/DFFMUX_7/mux_0/AND2_0/INV_0/A GND 2.02
 R RegEn8_0/DFFMUX_7/mux_0/AND2_0/INV_0/A 65
 = RegEn8_0/DFFMUX_7/mux_0/AND2_0/INV_0/A RegEn8_0/DFFMUX_7/mux_0/AND2_0/NAND2_0/Y
 = RegEn8_0/DFFMUX_7/mux_0/AND2_0/INV_0/A RegEn8_0/DFFMUX_7/mux_0/AND2_0/m1_29_16#
-C Q7 GND 44.65
+C Q7 GND 44.64
 R Q7 422
 = Q7 8BitAdder_0/B7
 = Q7 8BitAdder_0/FullAdder_7/B
@@ -1245,7 +1245,7 @@ C RegEn8_0/DFFMUX_6/mux_0/AND2_0/INV_0/A GND 2.02
 R RegEn8_0/DFFMUX_6/mux_0/AND2_0/INV_0/A 65
 = RegEn8_0/DFFMUX_6/mux_0/AND2_0/INV_0/A RegEn8_0/DFFMUX_6/mux_0/AND2_0/NAND2_0/Y
 = RegEn8_0/DFFMUX_6/mux_0/AND2_0/INV_0/A RegEn8_0/DFFMUX_6/mux_0/AND2_0/m1_29_16#
-C Q6 GND 45.98
+C Q6 GND 45.91
 R Q6 425
 = Q6 8BitAdder_0/B6
 = Q6 8BitAdder_0/FullAdder_6/B
@@ -1273,8 +1273,8 @@ R RegEn8_0/DFFMUX_6/DFlipFlop_0/D 64
 = RegEn8_0/DFFMUX_6/DFlipFlop_0/D RegEn8_0/DFFMUX_6/m1_142_24#
 = RegEn8_0/DFFMUX_6/DFlipFlop_0/D RegEn8_0/DFFMUX_6/mux_0/m1_122_16#
 = RegEn8_0/DFFMUX_6/DFlipFlop_0/D RegEn8_0/DFFMUX_6/mux_0/OR2_0/INV_0/Y
-C VSS GND 193.54
-R VSS 4929
+C VSS GND 197.43
+R VSS 4931
 = VSS 8BitAdder_0/Cin
 = VSS 8BitAdder_0/FullAdder_0/C
 = VSS 8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/C
@@ -1339,8 +1339,42 @@ R VSS 4929
 = VSS RotationDetector_0/2A4O2DFF_0/2AND4OR2_0/AND4_1/NAND4_0/VSS
 = VSS RotationDetector_0/2A4O2DFF_0/2AND4OR2_0/AND4_1/INV_0/VSS
 = VSS INV_0/VSS
-= VSS RotationDetector_1/VSS
+= VSS 8BitAdder_0/VSS
 = VSS m1_383_481#
+= VSS 8BitAdder_0/FullAdder_7/VSS
+= VSS 8BitAdder_0/FullAdder_7/INV_0/VSS
+= VSS 8BitAdder_0/FullAdder_7/INV_1/VSS
+= VSS 8BitAdder_0/FullAdder_7/MIRROR_ADDER_0/VSS
+= VSS 8BitAdder_0/FullAdder_6/VSS
+= VSS 8BitAdder_0/FullAdder_6/INV_0/VSS
+= VSS 8BitAdder_0/FullAdder_6/INV_1/VSS
+= VSS 8BitAdder_0/FullAdder_6/MIRROR_ADDER_0/VSS
+= VSS 8BitAdder_0/FullAdder_5/VSS
+= VSS 8BitAdder_0/FullAdder_5/INV_0/VSS
+= VSS 8BitAdder_0/FullAdder_5/INV_1/VSS
+= VSS 8BitAdder_0/FullAdder_5/MIRROR_ADDER_0/VSS
+= VSS 8BitAdder_0/FullAdder_4/VSS
+= VSS 8BitAdder_0/FullAdder_4/INV_0/VSS
+= VSS 8BitAdder_0/FullAdder_4/INV_1/VSS
+= VSS 8BitAdder_0/FullAdder_4/MIRROR_ADDER_0/VSS
+= VSS 8BitAdder_0/FullAdder_2/VSS
+= VSS 8BitAdder_0/FullAdder_2/INV_0/VSS
+= VSS 8BitAdder_0/FullAdder_2/INV_1/VSS
+= VSS 8BitAdder_0/FullAdder_2/MIRROR_ADDER_0/VSS
+= VSS 8BitAdder_0/FullAdder_3/VSS
+= VSS 8BitAdder_0/FullAdder_3/INV_0/VSS
+= VSS 8BitAdder_0/FullAdder_3/INV_1/VSS
+= VSS 8BitAdder_0/FullAdder_3/MIRROR_ADDER_0/VSS
+= VSS 8BitAdder_0/FullAdder_1/VSS
+= VSS 8BitAdder_0/FullAdder_1/INV_0/VSS
+= VSS 8BitAdder_0/FullAdder_1/INV_1/VSS
+= VSS 8BitAdder_0/FullAdder_1/MIRROR_ADDER_0/VSS
+= VSS 8BitAdder_0/FullAdder_0/VSS
+= VSS 8BitAdder_0/FullAdder_0/INV_0/VSS
+= VSS 8BitAdder_0/FullAdder_0/INV_1/VSS
+= VSS 8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/VSS
+= VSS RotationDetector_1/VSS
+= VSS m1_384_582#
 = VSS RotationDetector_1/INV_0/VSS
 = VSS RotationDetector_1/m1_n73_209#
 = VSS RotationDetector_1/2AND4OR2_0/VSS
@@ -1394,39 +1428,6 @@ R VSS 4929
 = VSS RotationDetector_1/2A4O2DFF_0/2AND4OR2_0/AND4_1/NAND4_0/VSS
 = VSS RotationDetector_1/2A4O2DFF_0/2AND4OR2_0/AND4_1/INV_0/VSS
 = VSS RegEn8_0/VSS
-= VSS 8BitAdder_0/VSS
-= VSS 8BitAdder_0/FullAdder_7/VSS
-= VSS 8BitAdder_0/FullAdder_7/INV_0/VSS
-= VSS 8BitAdder_0/FullAdder_7/INV_1/VSS
-= VSS 8BitAdder_0/FullAdder_7/MIRROR_ADDER_0/VSS
-= VSS 8BitAdder_0/FullAdder_6/VSS
-= VSS 8BitAdder_0/FullAdder_6/INV_0/VSS
-= VSS 8BitAdder_0/FullAdder_6/INV_1/VSS
-= VSS 8BitAdder_0/FullAdder_6/MIRROR_ADDER_0/VSS
-= VSS 8BitAdder_0/FullAdder_5/VSS
-= VSS 8BitAdder_0/FullAdder_5/INV_0/VSS
-= VSS 8BitAdder_0/FullAdder_5/INV_1/VSS
-= VSS 8BitAdder_0/FullAdder_5/MIRROR_ADDER_0/VSS
-= VSS 8BitAdder_0/FullAdder_4/VSS
-= VSS 8BitAdder_0/FullAdder_4/INV_0/VSS
-= VSS 8BitAdder_0/FullAdder_4/INV_1/VSS
-= VSS 8BitAdder_0/FullAdder_4/MIRROR_ADDER_0/VSS
-= VSS 8BitAdder_0/FullAdder_2/VSS
-= VSS 8BitAdder_0/FullAdder_2/INV_0/VSS
-= VSS 8BitAdder_0/FullAdder_2/INV_1/VSS
-= VSS 8BitAdder_0/FullAdder_2/MIRROR_ADDER_0/VSS
-= VSS 8BitAdder_0/FullAdder_3/VSS
-= VSS 8BitAdder_0/FullAdder_3/INV_0/VSS
-= VSS 8BitAdder_0/FullAdder_3/INV_1/VSS
-= VSS 8BitAdder_0/FullAdder_3/MIRROR_ADDER_0/VSS
-= VSS 8BitAdder_0/FullAdder_1/VSS
-= VSS 8BitAdder_0/FullAdder_1/INV_0/VSS
-= VSS 8BitAdder_0/FullAdder_1/INV_1/VSS
-= VSS 8BitAdder_0/FullAdder_1/MIRROR_ADDER_0/VSS
-= VSS 8BitAdder_0/FullAdder_0/VSS
-= VSS 8BitAdder_0/FullAdder_0/INV_0/VSS
-= VSS 8BitAdder_0/FullAdder_0/INV_1/VSS
-= VSS 8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/VSS
 = VSS m1_749_23#
 = VSS RegEn8_0/m1_0_108#
 = VSS RegEn8_0/DFFMUX_1/VSS
@@ -1656,7 +1657,7 @@ C RegEn8_0/DFFMUX_5/mux_0/AND2_0/INV_0/A GND 2.02
 R RegEn8_0/DFFMUX_5/mux_0/AND2_0/INV_0/A 65
 = RegEn8_0/DFFMUX_5/mux_0/AND2_0/INV_0/A RegEn8_0/DFFMUX_5/mux_0/AND2_0/NAND2_0/Y
 = RegEn8_0/DFFMUX_5/mux_0/AND2_0/INV_0/A RegEn8_0/DFFMUX_5/mux_0/AND2_0/m1_29_16#
-C Q5 GND 46.69
+C Q5 GND 46.61
 R Q5 426
 = Q5 8BitAdder_0/B5
 = Q5 8BitAdder_0/FullAdder_5/B
@@ -1743,7 +1744,7 @@ C RegEn8_0/DFFMUX_4/mux_0/AND2_0/INV_0/A GND 2.02
 R RegEn8_0/DFFMUX_4/mux_0/AND2_0/INV_0/A 65
 = RegEn8_0/DFFMUX_4/mux_0/AND2_0/INV_0/A RegEn8_0/DFFMUX_4/mux_0/AND2_0/NAND2_0/Y
 = RegEn8_0/DFFMUX_4/mux_0/AND2_0/INV_0/A RegEn8_0/DFFMUX_4/mux_0/AND2_0/m1_29_16#
-C Q4 GND 47.19
+C Q4 GND 47.12
 R Q4 427
 = Q4 8BitAdder_0/B4
 = Q4 8BitAdder_0/FullAdder_4/B
@@ -1830,7 +1831,7 @@ C RegEn8_0/DFFMUX_3/mux_0/AND2_0/INV_0/A GND 2.02
 R RegEn8_0/DFFMUX_3/mux_0/AND2_0/INV_0/A 65
 = RegEn8_0/DFFMUX_3/mux_0/AND2_0/INV_0/A RegEn8_0/DFFMUX_3/mux_0/AND2_0/NAND2_0/Y
 = RegEn8_0/DFFMUX_3/mux_0/AND2_0/INV_0/A RegEn8_0/DFFMUX_3/mux_0/AND2_0/m1_29_16#
-C Q3 GND 48.20
+C Q3 GND 48.12
 R Q3 429
 = Q3 8BitAdder_0/B3
 = Q3 8BitAdder_0/FullAdder_3/B
@@ -1861,8 +1862,8 @@ R RegEn8_0/DFFMUX_3/DFlipFlop_0/D 64
 R RegEn8_0/DFFMUX_3/mux_0/OR2_0/INV_0/A 68
 = RegEn8_0/DFFMUX_3/mux_0/OR2_0/INV_0/A RegEn8_0/DFFMUX_3/mux_0/OR2_0/NOR2_0/Y
 = RegEn8_0/DFFMUX_3/mux_0/OR2_0/INV_0/A RegEn8_0/DFFMUX_3/mux_0/OR2_0/m1_10_28#
-C VDD GND 1600.40
-R VDD 210856
+C VDD GND 1604.52
+R VDD 210887
 = VDD OR2_0/VDD
 = VDD OR2_0/INV_0/VDD
 = VDD OR2_0/NOR2_0/VDD
@@ -1940,12 +1941,49 @@ R VDD 210856
 = VDD RotationDetector_0/2A4O2DFF_0/2AND4OR2_0/AND4_1/INV_0/VDD
 = VDD RotationDetector_0/2A4O2DFF_0/2AND4OR2_0/AND4_1/w_10_52#
 = VDD INV_0/VDD
+= VDD m1_749_n17#
 = VDD 8BitAdder_0/A0
 = VDD 8BitAdder_0/FullAdder_0/A
 = VDD 8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/A
-= VDD RotationDetector_1/VDD
+= VDD 8BitAdder_0/VDD
 = VDD m1_423_533#
 = VDD m1_383_533#
+= VDD m1_610_n17#
+= VDD 8BitAdder_0/FullAdder_7/VDD
+= VDD 8BitAdder_0/FullAdder_7/INV_0/VDD
+= VDD 8BitAdder_0/FullAdder_7/INV_1/VDD
+= VDD 8BitAdder_0/FullAdder_7/MIRROR_ADDER_0/VDD
+= VDD 8BitAdder_0/FullAdder_6/VDD
+= VDD 8BitAdder_0/FullAdder_6/INV_0/VDD
+= VDD 8BitAdder_0/FullAdder_6/INV_1/VDD
+= VDD 8BitAdder_0/FullAdder_6/MIRROR_ADDER_0/VDD
+= VDD 8BitAdder_0/FullAdder_5/VDD
+= VDD 8BitAdder_0/FullAdder_5/INV_0/VDD
+= VDD 8BitAdder_0/FullAdder_5/INV_1/VDD
+= VDD 8BitAdder_0/FullAdder_5/MIRROR_ADDER_0/VDD
+= VDD 8BitAdder_0/FullAdder_4/VDD
+= VDD 8BitAdder_0/FullAdder_4/INV_0/VDD
+= VDD 8BitAdder_0/FullAdder_4/INV_1/VDD
+= VDD 8BitAdder_0/FullAdder_4/MIRROR_ADDER_0/VDD
+= VDD 8BitAdder_0/FullAdder_3/VDD
+= VDD 8BitAdder_0/FullAdder_3/INV_0/VDD
+= VDD 8BitAdder_0/FullAdder_3/INV_1/VDD
+= VDD 8BitAdder_0/FullAdder_3/MIRROR_ADDER_0/VDD
+= VDD 8BitAdder_0/FullAdder_2/VDD
+= VDD 8BitAdder_0/FullAdder_2/INV_0/VDD
+= VDD 8BitAdder_0/FullAdder_2/INV_1/VDD
+= VDD 8BitAdder_0/FullAdder_2/MIRROR_ADDER_0/VDD
+= VDD 8BitAdder_0/FullAdder_1/VDD
+= VDD 8BitAdder_0/FullAdder_1/INV_0/VDD
+= VDD 8BitAdder_0/FullAdder_1/INV_1/VDD
+= VDD 8BitAdder_0/FullAdder_1/MIRROR_ADDER_0/VDD
+= VDD 8BitAdder_0/FullAdder_0/VDD
+= VDD 8BitAdder_0/FullAdder_0/INV_0/VDD
+= VDD 8BitAdder_0/FullAdder_0/INV_1/VDD
+= VDD 8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/VDD
+= VDD RotationDetector_1/VDD
+= VDD w_588_631#
+= VDD m1_383_634#
 = VDD RotationDetector_1/INV_0/VDD
 = VDD RotationDetector_1/m1_n73_261#
 = VDD RotationDetector_1/2AND4OR2_0/VDD
@@ -2017,41 +2055,6 @@ R VDD 210856
 = VDD RotationDetector_1/2A4O2DFF_0/2AND4OR2_0/AND4_1/INV_0/VDD
 = VDD RotationDetector_1/2A4O2DFF_0/2AND4OR2_0/AND4_1/w_10_52#
 = VDD RegEn8_0/VDD
-= VDD 8BitAdder_0/VDD
-= VDD m1_749_n17#
-= VDD m1_610_n17#
-= VDD 8BitAdder_0/FullAdder_7/VDD
-= VDD 8BitAdder_0/FullAdder_7/INV_0/VDD
-= VDD 8BitAdder_0/FullAdder_7/INV_1/VDD
-= VDD 8BitAdder_0/FullAdder_7/MIRROR_ADDER_0/VDD
-= VDD 8BitAdder_0/FullAdder_6/VDD
-= VDD 8BitAdder_0/FullAdder_6/INV_0/VDD
-= VDD 8BitAdder_0/FullAdder_6/INV_1/VDD
-= VDD 8BitAdder_0/FullAdder_6/MIRROR_ADDER_0/VDD
-= VDD 8BitAdder_0/FullAdder_5/VDD
-= VDD 8BitAdder_0/FullAdder_5/INV_0/VDD
-= VDD 8BitAdder_0/FullAdder_5/INV_1/VDD
-= VDD 8BitAdder_0/FullAdder_5/MIRROR_ADDER_0/VDD
-= VDD 8BitAdder_0/FullAdder_4/VDD
-= VDD 8BitAdder_0/FullAdder_4/INV_0/VDD
-= VDD 8BitAdder_0/FullAdder_4/INV_1/VDD
-= VDD 8BitAdder_0/FullAdder_4/MIRROR_ADDER_0/VDD
-= VDD 8BitAdder_0/FullAdder_3/VDD
-= VDD 8BitAdder_0/FullAdder_3/INV_0/VDD
-= VDD 8BitAdder_0/FullAdder_3/INV_1/VDD
-= VDD 8BitAdder_0/FullAdder_3/MIRROR_ADDER_0/VDD
-= VDD 8BitAdder_0/FullAdder_2/VDD
-= VDD 8BitAdder_0/FullAdder_2/INV_0/VDD
-= VDD 8BitAdder_0/FullAdder_2/INV_1/VDD
-= VDD 8BitAdder_0/FullAdder_2/MIRROR_ADDER_0/VDD
-= VDD 8BitAdder_0/FullAdder_1/VDD
-= VDD 8BitAdder_0/FullAdder_1/INV_0/VDD
-= VDD 8BitAdder_0/FullAdder_1/INV_1/VDD
-= VDD 8BitAdder_0/FullAdder_1/MIRROR_ADDER_0/VDD
-= VDD 8BitAdder_0/FullAdder_0/VDD
-= VDD 8BitAdder_0/FullAdder_0/INV_0/VDD
-= VDD 8BitAdder_0/FullAdder_0/INV_1/VDD
-= VDD 8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/VDD
 = VDD RegEn8_0/m1_0_160#
 = VDD RegEn8_0/DFFMUX_0/VDD
 = VDD RegEn8_0/DFFMUX_0/m2_346_n48#
@@ -2453,7 +2456,7 @@ R a2 68
 = a2 RegEn8_0/DFFMUX_2/mux_0/B
 = a2 RegEn8_0/DFFMUX_2/mux_0/AND2_1/B
 = a2 RegEn8_0/DFFMUX_2/mux_0/AND2_1/NAND2_0/B
-C en GND 53.67
+C en GND 53.59
 R en 1020
 = en OR2_0/Y
 = en OR2_0/INV_0/Y
@@ -2524,7 +2527,7 @@ C RegEn8_0/DFFMUX_2/mux_0/AND2_0/INV_0/A GND 2.02
 R RegEn8_0/DFFMUX_2/mux_0/AND2_0/INV_0/A 65
 = RegEn8_0/DFFMUX_2/mux_0/AND2_0/INV_0/A RegEn8_0/DFFMUX_2/mux_0/AND2_0/NAND2_0/Y
 = RegEn8_0/DFFMUX_2/mux_0/AND2_0/INV_0/A RegEn8_0/DFFMUX_2/mux_0/AND2_0/m1_29_16#
-C Q2 GND 43.02
+C Q2 GND 42.94
 R Q2 419
 = Q2 8BitAdder_0/B2
 = Q2 8BitAdder_0/FullAdder_2/B
@@ -2611,7 +2614,7 @@ C RegEn8_0/DFFMUX_1/mux_0/AND2_0/INV_0/A GND 2.02
 R RegEn8_0/DFFMUX_1/mux_0/AND2_0/INV_0/A 65
 = RegEn8_0/DFFMUX_1/mux_0/AND2_0/INV_0/A RegEn8_0/DFFMUX_1/mux_0/AND2_0/NAND2_0/Y
 = RegEn8_0/DFFMUX_1/mux_0/AND2_0/INV_0/A RegEn8_0/DFFMUX_1/mux_0/AND2_0/m1_29_16#
-C Q1 GND 33.97
+C Q1 GND 33.90
 R Q1 413
 = Q1 8BitAdder_0/B1
 = Q1 8BitAdder_0/FullAdder_1/B
@@ -2698,7 +2701,7 @@ C RegEn8_0/DFFMUX_0/mux_0/AND2_0/INV_0/A GND 2.02
 R RegEn8_0/DFFMUX_0/mux_0/AND2_0/INV_0/A 65
 = RegEn8_0/DFFMUX_0/mux_0/AND2_0/INV_0/A RegEn8_0/DFFMUX_0/mux_0/AND2_0/NAND2_0/Y
 = RegEn8_0/DFFMUX_0/mux_0/AND2_0/INV_0/A RegEn8_0/DFFMUX_0/mux_0/AND2_0/m1_29_16#
-C Q0 GND 35.08
+C Q0 GND 35.01
 R Q0 412
 = Q0 8BitAdder_0/B0
 = Q0 8BitAdder_0/FullAdder_0/B

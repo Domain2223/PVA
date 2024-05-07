@@ -1,4 +1,4 @@
-timestamp 1714630292
+timestamp 1715058024
 version 8.3
 tech scmos
 style HP0.5um(hpcmos14tb)from:N9AE
@@ -51,219 +51,242 @@ node "m1_423_533#" 14 9824.45 423 533 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 676 354 245
 node "m1_383_533#" 0 620.91 383 533 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100 58 0 0 0 0
 node "a6" 2 2686.41 749 475 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 460 238 0 0 0 0
 node "rot1`" 49 39963.4 417 502 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4212 2170 6540 3326 0 0
+node "m1_384_582#" 4 4935.51 384 582 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 852 434 0 0 0 0
 node "bwd" 9 5167.87 -81 100 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32 32 2008 1012 0 0
-node "en" 14 11855.4 441 230 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1332 682 1736 884 0 0
+node "m1_383_634#" 4 5005.62 383 634 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 872 444 0 0 0 0
+node "en" 14 11777.1 441 230 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1332 682 1736 884 0 0
 node "a7" 3 1593.67 749 567 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 76 54 468 242 0 0
-node "Q0" 43 31978.5 519 -85 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2748 1398 6888 3460 0 0
-node "Q1" 41 31457.1 527 7 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2780 1414 6584 3308 0 0
-node "Q2" 40 30935.7 535 99 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2812 1430 6280 3156 0 0
-node "Q3" 39 30414.3 543 191 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2844 1446 5976 3004 0 0
-node "Q4" 38 29971.2 551 283 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2876 1462 5672 2852 0 0
-node "Q5" 37 29449.7 559 375 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2908 1478 5368 2700 0 0
-node "Q6" 35 28928.3 567 467 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2940 1494 5064 2548 0 0
-node "Q7" 34 28406.9 575 559 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2972 1510 4760 2396 0 0
-cap "Q1" "rot1`" 1916.96
-cap "Q6" "Q4" 313.536
-cap "m1_447_209#" "Q0" 156.768
-cap "m1_447_261#" "rot1`" 470.304
-cap "Q7" "Q2" 313.536
-cap "Q6" "Q3" 313.536
-cap "Q5" "Q4" 23413.9
-cap "Q5" "Q3" 313.536
-cap "rot1`" "Q2" 1760.2
-cap "Q4" "en" 156.768
-cap "a5" "a6" 26.3851
-cap "Q3" "en" 156.768
-cap "Q0" "m1_423_533#" 976.356
-cap "m1_218_n117#" "m1_182_n109#" 8364.2
-cap "m1_447_209#" "m1_423_533#" 156.768
-cap "Q0" "Q7" 313.536
-cap "Q1" "Q6" 313.536
-cap "Q0" "rot1`" 1097.38
-cap "Q1" "Q5" 313.536
-cap "VSS" "VDD" 1464.81
-cap "m1_447_209#" "rot1`" 1432.26
-cap "Q6" "Q2" 313.536
-cap "Q1" "en" 156.768
-cap "Q5" "Q2" 313.536
-cap "Q4" "Q3" 24381.9
-cap "Q2" "en" 156.768
-cap "m1_423_533#" "rot1`" 6410.88
-cap "CLK" "RST" 57.7175
-cap "Q7" "rot1`" 976.356
-cap "Q0" "Q6" 313.536
-cap "Q0" "Q5" 313.536
-cap "Q1" "Q4" 313.536
-cap "Q1" "Q3" 313.536
-cap "Q0" "en" 156.768
-cap "m1_447_261#" "Q3" 156.768
-cap "Q4" "Q2" 313.536
-cap "Q7" "Q6" 21477.8
-cap "Q3" "Q2" 25343.6
+node "Q0" 43 31900.2 519 -85 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2748 1398 6888 3460 0 0
+node "Q1" 41 31378.8 527 7 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2780 1414 6584 3308 0 0
+node "Q2" 40 30857.3 535 99 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2812 1430 6280 3156 0 0
+node "Q3" 39 30335.9 543 191 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2844 1446 5976 3004 0 0
+node "Q4" 38 29892.8 551 283 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2876 1462 5672 2852 0 0
+node "Q5" 37 29371.4 559 375 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2908 1478 5368 2700 0 0
+node "Q6" 35 28850 567 467 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2940 1494 5064 2548 0 0
+node "Q7" 34 28328.6 575 559 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2972 1510 4760 2396 0 0
+node "w_588_631#" 713 135.36 588 631 nw 0 0 0 0 16 16 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 cap "rot1" "rot1`" 34.6305
-cap "Q7" "Q5" 313.536
-cap "Q6" "rot1`" 1133.12
-cap "m1_423_533#" "en" 1494.21
-cap "Q1" "m1_447_261#" 156.768
-cap "Q7" "en" 156.768
-cap "Q5" "rot1`" 1289.89
-cap "Q0" "Q4" 313.536
-cap "rot1`" "en" 156.768
-cap "Q0" "Q3" 313.536
-cap "Q1" "Q2" 26318
-cap "m1_447_209#" "Q3" 156.768
-cap "m1_447_261#" "Q2" 156.768
-cap "a7" "en" 156.768
-cap "a1" "m1_749_23#" 153.913
-cap "Q7" "Q4" 313.536
-cap "Q6" "Q5" 22445.8
-cap "Q1" "Q0" 27286.1
-cap "bwd" "fwd" 2105.93
-cap "m1_447_209#" "Q1" 156.768
-cap "Q7" "Q3" 313.536
+cap "m1_383_634#" "Q1" 156.768
 cap "Q0" "m1_447_261#" 156.768
-cap "Q6" "en" 156.768
+cap "Q3" "Q5" 313.536
+cap "RST" "CLK" 57.7175
+cap "m1_384_582#" "Q0" 156.768
+cap "m1_383_634#" "Q5" 156.768
+cap "Q2" "rot1`" 1760.2
+cap "Q7" "m1_384_582#" 156.768
+cap "m1_383_634#" "Q3" 156.768
+cap "Q2" "Q0" 313.536
+cap "rot1`" "Q6" 1133.12
+cap "Q7" "Q2" 313.536
 cap "Q4" "rot1`" 1446.66
-cap "rot1`" "Q3" 1603.43
-cap "Q5" "en" 156.768
-cap "Q0" "Q2" 313.536
-cap "m1_447_209#" "Q2" 156.768
-cap "a6" "a7" 76.9567
-cap "Q1" "Q7" 313.536
+cap "m1_447_209#" "rot1`" 1432.26
+cap "a7" "a6" 76.9567
+cap "Q0" "Q6" 313.536
+cap "en" "rot1`" 156.768
+cap "a5" "a6" 26.3851
+cap "Q7" "Q6" 21477.8
+cap "Q4" "Q0" 313.536
+cap "Q0" "m1_447_209#" 156.768
+cap "en" "Q0" 156.768
+cap "Q4" "Q7" 313.536
+cap "Q1" "rot1`" 1916.96
+cap "Q2" "m1_447_261#" 156.768
+cap "m1_749_23#" "a1" 153.913
+cap "en" "Q7" 156.768
+cap "m1_384_582#" "Q2" 156.768
+cap "Q1" "Q0" 27286.1
+cap "rot1`" "Q5" 1289.89
+cap "rot1`" "m1_423_533#" 6410.88
+cap "Q7" "Q1" 313.536
+cap "Q3" "rot1`" 1603.43
+cap "m1_384_582#" "Q6" 156.768
+cap "Q0" "Q5" 313.536
+cap "Q0" "m1_423_533#" 976.356
+cap "Q4" "m1_384_582#" 156.768
+cap "Q3" "Q0" 313.536
+cap "Q7" "Q5" 313.536
+cap "en" "m1_384_582#" 156.768
+cap "m1_383_634#" "Q0" 156.768
+cap "en" "a7" 156.768
+cap "Q3" "Q7" 313.536
+cap "Q2" "Q6" 313.536
+cap "Q1" "m1_447_261#" 156.768
+cap "m1_383_634#" "Q7" 156.768
+cap "Q4" "Q2" 313.536
+cap "Q2" "m1_447_209#" 156.768
+cap "m1_384_582#" "Q1" 156.768
+cap "en" "Q2" 156.768
+cap "m1_383_634#" "w_588_631#" 44.64
+cap "m1_182_n109#" "m1_218_n117#" 8364.2
 cap "m1_423_533#" "m1_447_261#" 156.768
+cap "Q4" "Q6" 313.536
+cap "Q3" "m1_447_261#" 156.768
+cap "m1_384_582#" "Q5" 156.768
+cap "Q2" "Q1" 26318
+cap "en" "Q6" 156.768
+cap "Q3" "m1_384_582#" 156.768
+cap "bwd" "fwd" 2105.93
+cap "en" "Q4" 156.768
+cap "Q1" "Q6" 313.536
+cap "Q2" "Q5" 313.536
+cap "Q4" "Q1" 313.536
+cap "Q3" "Q2" 25343.6
+cap "VSS" "VDD" 1464.81
+cap "Q1" "m1_447_209#" 156.768
+cap "m1_383_634#" "Q2" 156.768
+cap "en" "Q1" 156.768
+cap "Q0" "rot1`" 1097.38
+cap "Q6" "Q5" 22445.8
+cap "Q7" "rot1`" 976.356
+cap "Q3" "Q6" 313.536
+cap "Q4" "Q5" 23413.9
+cap "m1_447_209#" "m1_423_533#" 156.768
+cap "m1_383_634#" "Q6" 156.768
+cap "en" "Q5" 156.768
+cap "en" "m1_423_533#" 1494.21
+cap "Q4" "Q3" 24381.9
+cap "Q3" "m1_447_209#" 156.768
+cap "Q7" "Q0" 313.536
+cap "m1_383_634#" "Q4" 156.768
+cap "en" "Q3" 156.768
+cap "en" "m1_383_634#" 156.768
+cap "Q1" "Q5" 313.536
+cap "rot1`" "m1_447_261#" 470.304
+cap "Q3" "Q1" 313.536
+cap "m1_384_582#" "rot1`" 138.522
 cap "RotationDetector_0/CLK" "RotationDetector_0/RST" -57.7175
+cap "RotationDetector_0/CLK" "RotationDetector_0/S2" 51.948
 cap "RotationDetector_0/CLK" "RotationDetector_0/S1" 51.948
+cap "RotationDetector_0/RST" "RotationDetector_0/S2`" 156.768
+cap "RotationDetector_0/RST" "RotationDetector_0/S1`" 156.768
+cap "RotationDetector_0/RST" "RotationDetector_0/CLK" 156.768
 cap "RotationDetector_0/RST" "RotationDetector_0/S2" 156.768
 cap "RotationDetector_0/CLK" "RotationDetector_0/S2`" 51.948
-cap "RotationDetector_0/CLK" "RotationDetector_0/S2" 51.948
-cap "RotationDetector_0/RST" "RotationDetector_0/S1`" 156.768
 cap "RotationDetector_0/RST" "RotationDetector_0/S1" 156.768
 cap "RotationDetector_0/CLK" "RotationDetector_0/S1`" 51.948
-cap "RotationDetector_0/RST" "RotationDetector_0/S2`" 156.768
-cap "RotationDetector_0/RST" "RotationDetector_0/CLK" 156.768
-cap "RotationDetector_0/S2" "RotationDetector_0/CLK" 104.82
-cap "RotationDetector_0/S1`" "RotationDetector_0/CLK" 104.82
-cap "RotationDetector_0/S1" "RotationDetector_0/CLK" 104.82
-cap "RotationDetector_0/S2`" "RotationDetector_0/CLK" 104.82
-cap "8BitAdder_0/B0" "8BitAdder_0/Cin" 178.325
+cap "RotationDetector_0/CLK" "RotationDetector_0/S2" 104.82
+cap "RotationDetector_0/CLK" "RotationDetector_0/S1`" 104.82
+cap "RotationDetector_0/CLK" "RotationDetector_0/S2`" 104.82
+cap "RotationDetector_0/CLK" "RotationDetector_0/S1" 104.82
+cap "8BitAdder_0/A0" "8BitAdder_0/B0" -3.12639e-13
+cap "8BitAdder_0/A0" "8BitAdder_0/Cin" -2.27374e-13
 cap "8BitAdder_0/Cin" "8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/Cout`" -23.087
 cap "8BitAdder_0/Cin" "8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/a_2_8#" -23.087
-cap "8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/Cout`" "m1_182_n109#" 11.5435
-cap "8BitAdder_0/B0" "8BitAdder_0/A0" -3.12639e-13
-cap "8BitAdder_0/Cin" "8BitAdder_0/A0" -2.27374e-13
-cap "8BitAdder_0/VDD" "8BitAdder_0/Cin" 2.84217e-14
-cap "8BitAdder_0/Cin" "8BitAdder_0/m1_123_68#" -1.42109e-13
-cap "8BitAdder_0/Cin" "8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/A" -2.27374e-13
+cap "m1_182_n109#" "8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/Cout`" 11.5435
+cap "8BitAdder_0/B0" "8BitAdder_0/Cin" 178.325
 cap "8BitAdder_0/Cin" "8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/a_65_8#" -5.68434e-14
-cap "8BitAdder_0/Cin" "8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/B" 1.36424e-12
+cap "8BitAdder_0/Cin" "8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/A" -1.98952e-13
+cap "8BitAdder_0/Cin" "8BitAdder_0/m1_123_68#" -1.13687e-13
 cap "8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/Cout`" "m1_182_n109#" 1154.35
-cap "8BitAdder_0/Cin" "8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/S`" -1.42109e-13
-cap "8BitAdder_0/FullAdder_0/INV_1/A" "8BitAdder_0/FullAdder_0/INV_1/VDD" -5.68434e-14
-cap "8BitAdder_0/FullAdder_0/Cout" "8BitAdder_0/FullAdder_0/INV_1/VDD" 5.68434e-14
-cap "8BitAdder_0/FullAdder_0/INV_1/A" "m1_182_n109#" 253.957
-cap "RegEn8_0/DFFMUX_0/mux_0/A" "m1_182_n109#" 311.674
-cap "RegEn8_0/D0" "8BitAdder_0/FullAdder_0/INV_1/VSS" 34.6305
+cap "8BitAdder_0/Cin" "8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/B" 1.36424e-12
+cap "8BitAdder_0/VDD" "8BitAdder_0/Cin" 2.84217e-14
+cap "8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/S`" "8BitAdder_0/Cin" -1.42109e-13
+cap "m1_182_n109#" "8BitAdder_0/FullAdder_0/INV_1/A" 253.957
+cap "8BitAdder_0/FullAdder_0/INV_1/VSS" "RegEn8_0/D0" 34.6305
+cap "m1_182_n109#" "RegEn8_0/DFFMUX_0/mux_0/A" 311.674
+cap "8BitAdder_0/FullAdder_0/INV_1/VDD" "8BitAdder_0/FullAdder_0/Cout" 5.68434e-14
+cap "8BitAdder_0/FullAdder_0/INV_1/VDD" "8BitAdder_0/FullAdder_0/INV_1/A" -5.68434e-14
 cap "RegEn8_0/DFFMUX_0/m1_29_n48#" "m1_182_n109#" 1154.35
+cap "RegEn8_0/DFFMUX_0/m1_29_n48#" "m1_218_n117#" 25.512
 cap "m1_182_n109#" "RegEn8_0/DFFMUX_0/m1_29_n48#" 94.773
-cap "m1_218_n117#" "RegEn8_0/DFFMUX_0/m1_29_n48#" 25.512
-cap "RegEn8_0/DFFMUX_0/DFlipFlop_0/NAND3_5/VDD" "RegEn8_0/Q0" 15.192
+cap "RegEn8_0/Q0" "RegEn8_0/DFFMUX_0/DFlipFlop_0/NAND3_5/VDD" 15.192
 cap "RotationDetector_0/Out" "RotationDetector_0/S1" 25.512
 cap "8BitAdder_0/A1" "8BitAdder_0/B1" -92.348
-cap "RegEn8_0/D1" "RegEn8_0/DFFMUX_1/en" 313.536
-cap "RegEn8_0/DFFMUX_1/VSS" "RegEn8_0/DFFMUX_1/en" 42.3262
-cap "8BitAdder_0/FullAdder_1/INV_1/VDD" "8BitAdder_0/FullAdder_1/Cout" -5.68434e-14
-cap "8BitAdder_0/FullAdder_1/Cout" "RegEn8_0/DFFMUX_1/VSS" 138.522
-cap "RegEn8_0/DFFMUX_1/VSS" "RegEn8_0/DFFMUX_1/mux_0/A" 30.7827
-cap "8BitAdder_0/FullAdder_1/INV_1/VDD" "RegEn8_0/DFFMUX_1/VSS" 11.79
+cap "RegEn8_0/DFFMUX_1/mux_0/A" "RegEn8_0/DFFMUX_1/VSS" 30.7827
+cap "RegEn8_0/DFFMUX_1/VSS" "8BitAdder_0/FullAdder_1/Cout" 138.522
+cap "8BitAdder_0/FullAdder_1/Cout" "8BitAdder_0/FullAdder_1/INV_1/VDD" -5.68434e-14
 cap "RegEn8_0/D1" "RegEn8_0/DFFMUX_1/VSS" 96.1958
+cap "RegEn8_0/DFFMUX_1/en" "RegEn8_0/DFFMUX_1/VSS" 42.3262
+cap "RegEn8_0/DFFMUX_1/VSS" "8BitAdder_0/FullAdder_1/INV_1/VDD" 11.79
+cap "RegEn8_0/D1" "RegEn8_0/DFFMUX_1/en" 313.536
 cap "Q0" "RegEn8_0/Q1" 484.025
-cap "RegEn8_0/DFFMUX_0/DFlipFlop_0/NAND3_5/VDD" "Q0" 212.688
+cap "Q0" "RegEn8_0/DFFMUX_0/DFlipFlop_0/NAND3_5/VDD" 212.688
 cap "RotationDetector_0/In" "RotationDetector_0/INV_1/VDD" 54.9
-cap "8BitAdder_0/A2" "8BitAdder_0/B2" -184.696
-cap "RegEn8_0/D2" "8BitAdder_0/FullAdder_2/Cout" 107.739
+cap "8BitAdder_0/B2" "8BitAdder_0/A2" -184.696
+cap "8BitAdder_0/FullAdder_2/INV_1/VSS" "RegEn8_0/D2" 80.8045
 cap "RegEn8_0/D2" "RegEn8_0/DFFMUX_1/VDD" 30.7827
 cap "8BitAdder_0/FullAdder_2/Cout" "8BitAdder_0/FullAdder_2/INV_1/VDD" -5.68434e-14
-cap "RegEn8_0/D2" "8BitAdder_0/FullAdder_2/INV_1/VSS" 80.8045
-cap "Q0" "RegEn8_0/DFFMUX_1/DFlipFlop_0/NAND3_5/VDD" 227.88
-cap "Q0" "RegEn8_0/Q2" 458.55
-cap "RotationDetector_0/INV_0/VDD" "bwd" 54.9
-cap "RotationDetector_0/R" "RotationDetector_0/INV_0/Y" 46.174
-cap "RotationDetector_0/R" "bwd" 51.024
-cap "RotationDetector_0/INV_0/VDD" "RotationDetector_0/R" 461.76
-cap "RotationDetector_0/A3O2DFF_0/VDD" "RotationDetector_1/S1" 156.768
-cap "RotationDetector_0/A3O2DFF_0/A3A4O2_0/AND4_0/D" "RotationDetector_0/A3O2DFF_0/VSS" 224.18
+cap "RegEn8_0/D2" "8BitAdder_0/FullAdder_2/Cout" 107.739
+cap "RegEn8_0/Q2" "Q0" 458.55
+cap "RegEn8_0/DFFMUX_1/DFlipFlop_0/NAND3_5/VDD" "Q0" 227.88
+cap "bwd" "RotationDetector_0/INV_0/VDD" 54.9
+cap "RotationDetector_0/R" "RotationDetector_0/INV_0/VDD" 461.76
+cap "RotationDetector_0/INV_0/Y" "RotationDetector_0/R" 46.174
+cap "bwd" "RotationDetector_0/R" 51.024
 cap "RotationDetector_0/A3O2DFF_0/A3A4O2_0/AND4_0/NAND4_0/Y" "RotationDetector_0/A3O2DFF_0/VSS" 666.816
+cap "RotationDetector_0/A3O2DFF_0/VDD" "RotationDetector_1/S1" 156.768
 cap "RotationDetector_0/A3O2DFF_0/VDD" "RotationDetector_0/A3O2DFF_0/VSS" 599.916
 cap "RotationDetector_0/A3O2DFF_0/VSS" "RotationDetector_1/S1" 156.768
+cap "RotationDetector_0/A3O2DFF_0/A3A4O2_0/AND4_0/D" "RotationDetector_0/A3O2DFF_0/VSS" 224.18
 cap "RotationDetector_0/A3O2DFF_0/DFlipFlop_0/NAND3_1/B" "RotationDetector_1/S1" 51.948
 cap "RotationDetector_0/A3O2DFF_0/DFlipFlop_0/NAND3_0/B" "RotationDetector_1/S1" 156.768
 cap "RotationDetector_0/A3O2DFF_0/DFlipFlop_0/VDD" "RotationDetector_0/A3O2DFF_0/DFlipFlop_0/NAND3_0/B" -2.27374e-13
 cap "RotationDetector_1/S1" "m2_218_269#" 104.82
-cap "RotationDetector_0/A3O2DFF_0/DFlipFlop_0/NAND3_5/VSS" "RotationDetector_1/S1" 51.024
-cap "RotationDetector_0/A3O2DFF_0/Q" "RotationDetector_0/A3O2DFF_0/DFlipFlop_0/NAND3_5/VSS" 215.479
-cap "OR2_0/A" "OR2_0/NOR2_0/Y" 23.087
 cap "RotationDetector_0/A3O2DFF_0/DFlipFlop_0/NAND3_5/VDD" "OR2_0/A" 635.712
-cap "RotationDetector_0/A3O2DFF_0/DFlipFlop_0/NAND3_5/VDD" "RotationDetector_1/S1" 51.024
-cap "OR2_0/Y" "OR2_0/NOR2_0/Y" 40.4022
+cap "RotationDetector_0/A3O2DFF_0/Q" "RotationDetector_0/A3O2DFF_0/DFlipFlop_0/NAND3_5/VSS" 215.479
+cap "RotationDetector_1/S1" "RotationDetector_0/A3O2DFF_0/DFlipFlop_0/NAND3_5/VSS" 51.024
+cap "RotationDetector_1/S1" "RotationDetector_0/A3O2DFF_0/DFlipFlop_0/NAND3_5/VDD" 51.024
+cap "OR2_0/A" "OR2_0/NOR2_0/Y" 23.087
 cap "OR2_0/VDD" "m1_423_533#" 46.116
+cap "OR2_0/NOR2_0/Y" "OR2_0/Y" 40.4022
 cap "OR2_0/Y" "OR2_0/VDD" 269.232
 cap "OR2_0/B" "OR2_0/VSS" 274.992
-cap "OR2_0/B" "OR2_0/NOR2_0/Y" 161.609
-cap "8BitAdder_0/FullAdder_3/VSS" "8BitAdder_0/A3" -46.174
-cap "8BitAdder_0/A3" "8BitAdder_0/B3" -277.044
-cap "8BitAdder_0/FullAdder_3/INV_1/VDD" "RegEn8_0/D3" 64.845
+cap "OR2_0/NOR2_0/Y" "OR2_0/B" 161.609
+cap "8BitAdder_0/B3" "8BitAdder_0/A3" -277.044
+cap "8BitAdder_0/A3" "8BitAdder_0/FullAdder_3/VSS" -46.174
 cap "8BitAdder_0/FullAdder_3/Cout" "RegEn8_0/D3" 173.153
-cap "RegEn8_0/DFFMUX_2/VDD" "RegEn8_0/D3" 30.7827
-cap "8BitAdder_0/FullAdder_3/INV_1/VSS" "RegEn8_0/D3" 80.8045
-cap "RegEn8_0/DFFMUX_2/DFlipFlop_0/NAND3_5/VDD" "Q0" 227.88
+cap "RegEn8_0/D3" "8BitAdder_0/FullAdder_3/INV_1/VDD" 64.845
+cap "RegEn8_0/D3" "8BitAdder_0/FullAdder_3/INV_1/VSS" 80.8045
+cap "RegEn8_0/D3" "RegEn8_0/DFFMUX_2/VDD" 30.7827
+cap "RegEn8_0/Q3" "Q0" 401.231
+cap "Q0" "RegEn8_0/DFFMUX_2/DFlipFlop_0/NAND3_5/VDD" 227.88
 cap "RegEn8_0/DFFMUX_2/DFlipFlop_0/NAND3_5/Y" "Q0" 50.95
-cap "Q0" "RegEn8_0/Q3" 401.231
-cap "RotationDetector_1/RST" "bwd" 51.024
 cap "RotationDetector_1/CLK" "bwd" 51.024
-cap "RotationDetector_1/RST" "fwd" 156.768
 cap "RotationDetector_1/CLK" "fwd" 156.768
-cap "RotationDetector_1/S2`" "VDD" 156.768
-cap "RotationDetector_1/VSS" "RotationDetector_1/CLK" 156.768
-cap "RotationDetector_1/VSS" "VDD" 243.203
-cap "RotationDetector_1/VSS" "RotationDetector_1/S2`" 156.768
-cap "RotationDetector_1/S2" "VDD" 156.768
-cap "RotationDetector_1/2AND4OR2_0/AND4_0/INV_0/Y" "VDD" 156.768
-cap "RotationDetector_1/S1`" "VDD" 156.768
-cap "RotationDetector_1/VSS" "RotationDetector_1/S2" 156.768
+cap "RotationDetector_1/RST" "bwd" 51.024
+cap "fwd" "RotationDetector_1/RST" 156.768
+cap "RotationDetector_1/CLK" "RotationDetector_1/VSS" 156.768
 cap "RotationDetector_1/VSS" "RotationDetector_1/2AND4OR2_0/AND4_0/INV_0/Y" 156.768
 cap "RotationDetector_1/RST" "VDD" 156.768
-cap "RotationDetector_1/VSS" "RotationDetector_1/2AND4OR2_0/H" 264.94
-cap "RotationDetector_1/VSS" "RotationDetector_1/S1`" 156.768
+cap "VDD" "RotationDetector_1/VSS" 243.203
+cap "RotationDetector_1/S2`" "RotationDetector_1/VSS" 156.768
 cap "RotationDetector_1/CLK" "VDD" 156.768
-cap "RotationDetector_1/VSS" "RotationDetector_1/RST" 156.768
-cap "RotationDetector_1/CLK" "RotationDetector_1/S2" 51.948
+cap "VDD" "RotationDetector_1/2AND4OR2_0/AND4_0/INV_0/Y" 156.768
+cap "RotationDetector_1/S2" "RotationDetector_1/VSS" 156.768
+cap "RotationDetector_1/S2`" "VDD" 156.768
+cap "RotationDetector_1/2AND4OR2_0/H" "RotationDetector_1/VSS" 264.94
+cap "RotationDetector_1/S1`" "RotationDetector_1/VSS" 156.768
+cap "RotationDetector_1/S2" "VDD" 156.768
+cap "RotationDetector_1/RST" "RotationDetector_1/VSS" 156.768
+cap "RotationDetector_1/S1`" "VDD" 156.768
+cap "RotationDetector_1/S2`" "RotationDetector_1/RST" 156.768
 cap "RotationDetector_1/RST" "RotationDetector_1/CLK" 156.768
-cap "RotationDetector_1/RST" "RotationDetector_1/S2`" 156.768
-cap "RotationDetector_1/RST" "RotationDetector_1/S1`" 156.768
-cap "RotationDetector_1/RST" "RotationDetector_1/S2" 156.768
-cap "RotationDetector_1/CLK" "RotationDetector_1/S2`" 51.948
-cap "RotationDetector_1/CLK" "RotationDetector_1/S1`" 51.948
-cap "RotationDetector_1/CLK" "RotationDetector_1/S2`" 104.82
+cap "RotationDetector_1/S1`" "RotationDetector_1/RST" 156.768
+cap "RotationDetector_1/S2" "RotationDetector_1/RST" 156.768
+cap "RotationDetector_1/S2`" "RotationDetector_1/CLK" 51.948
+cap "RotationDetector_1/S1`" "RotationDetector_1/CLK" 51.948
+cap "RotationDetector_1/S2" "RotationDetector_1/CLK" 51.948
 cap "RotationDetector_1/CLK" "RotationDetector_1/S2" 104.82
 cap "RotationDetector_1/CLK" "RotationDetector_1/S1`" 104.82
-cap "8BitAdder_0/A5" "8BitAdder_0/B5" -178.924
+cap "RotationDetector_1/CLK" "RotationDetector_1/S2`" 104.82
+cap "8BitAdder_0/B5" "8BitAdder_0/A5" -178.924
 cap "8BitAdder_0/A4" "8BitAdder_0/B4" -357.849
 cap "8BitAdder_0/FullAdder_5/MIRROR_ADDER_0/A" "8BitAdder_0/FullAdder_5/MIRROR_ADDER_0/B" -51.9457
 cap "8BitAdder_0/FullAdder_4/MIRROR_ADDER_0/A" "8BitAdder_0/FullAdder_4/MIRROR_ADDER_0/B" -11.5435
-cap "RegEn8_0/D4" "RegEn8_0/DFFMUX_3/VDD" 30.7827
-cap "RegEn8_0/DFFMUX_4/en" "RegEn8_0/D4" 26.9348
-cap "8BitAdder_0/FullAdder_4/INV_1/VSS" "RegEn8_0/D4" 80.8045
 cap "RegEn8_0/D4" "8BitAdder_0/FullAdder_4/INV_1/VDD" 193.549
-cap "8BitAdder_0/FullAdder_4/Cout" "RegEn8_0/D4" 169.305
-cap "Q0" "RegEn8_0/Q4" 350.281
+cap "RegEn8_0/D4" "8BitAdder_0/FullAdder_4/Cout" 169.305
+cap "RegEn8_0/D4" "RegEn8_0/DFFMUX_3/VDD" 30.7827
+cap "RegEn8_0/D4" "RegEn8_0/DFFMUX_4/en" 26.9348
+cap "8BitAdder_0/FullAdder_4/INV_1/VSS" "RegEn8_0/D4" 80.8045
 cap "Q0" "RegEn8_0/DFFMUX_3/DFlipFlop_0/NAND3_5/Y" 140.113
 cap "Q0" "RegEn8_0/DFFMUX_3/DFlipFlop_0/NAND3_5/VDD" 227.88
+cap "Q0" "RegEn8_0/Q4" 350.281
 cap "bwd" "RotationDetector_1/In" 101.974
-cap "RotationDetector_1/2AND4OR2_0/AND4_1/NAND4_0/Y" "RotationDetector_1/VDD" 157.644
 cap "RotationDetector_1/VSS" "RotationDetector_1/VDD" 592.239
-cap "INV_0/VSS" "RotationDetector_1/S1" 78.384
-cap "INV_0/VSS" "RotationDetector_1/Out" 78.384
+cap "RotationDetector_1/2AND4OR2_0/AND4_1/NAND4_0/Y" "RotationDetector_1/VDD" 157.644
 cap "RotationDetector_1/S1" "RotationDetector_1/Out" 25.512
+cap "RotationDetector_1/S1" "INV_0/VSS" 78.384
+cap "INV_0/VSS" "RotationDetector_1/Out" 78.384
 cap "INV_0/VSS" "RotationDetector_1/S1`" 78.384
 cap "8BitAdder_0/A6" "8BitAdder_0/B6" -357.849
 cap "8BitAdder_0/FullAdder_6/MIRROR_ADDER_0/A" "8BitAdder_0/FullAdder_6/MIRROR_ADDER_0/B" -196.239
@@ -271,64 +294,69 @@ cap "RegEn8_0/DFFMUX_4/VSS" "RegEn8_0/D5" 7.69567
 cap "8BitAdder_0/S6" "RegEn8_0/DFFMUX_5/mux_0/A" 7.69567
 cap "8BitAdder_0/FullAdder_6/INV_1/VSS" "8BitAdder_0/S6" 34.6305
 cap "8BitAdder_0/FullAdder_5/Cout" "RegEn8_0/D5" 169.305
-cap "8BitAdder_0/FullAdder_5/INV_1/VDD" "RegEn8_0/D5" 193.549
 cap "RegEn8_0/DFFMUX_5/en" "RegEn8_0/D5" 30.7827
-cap "RegEn8_0/DFFMUX_4/VDD" "RegEn8_0/D5" 30.7827
+cap "8BitAdder_0/FullAdder_5/INV_1/VDD" "RegEn8_0/D5" 193.549
 cap "RegEn8_0/DFFMUX_5/en" "8BitAdder_0/S6" 23.087
 cap "8BitAdder_0/FullAdder_5/INV_1/VSS" "RegEn8_0/D5" 80.8045
 cap "8BitAdder_0/FullAdder_6/Cout" "RegEn8_0/D5" 11.5435
-cap "RegEn8_0/Q5" "Q0" 299.331
-cap "RegEn8_0/Q4" "Q0" 242.013
-cap "RegEn8_0/DFFMUX_4/DFlipFlop_0/NAND3_5/VDD" "Q0" 227.88
+cap "RegEn8_0/DFFMUX_4/VDD" "RegEn8_0/D5" 30.7827
+cap "Q0" "RegEn8_0/DFFMUX_4/DFlipFlop_0/NAND3_5/VDD" 227.88
+cap "Q0" "RegEn8_0/Q4" 242.013
+cap "Q0" "RegEn8_0/Q5" 299.331
+cap "bwd" "RotationDetector_1/In" 186.817
 cap "RotationDetector_1/INV_1/VDD" "bwd" 54.9
-cap "RotationDetector_1/In" "bwd" 186.817
-cap "RotationDetector_1/2A4O2DFF_0/DFlipFlop_0/NAND3_5/VDD" "INV_0/VDD" 114.12
-cap "RotationDetector_1/S1`" "RotationDetector_1/2A4O2DFF_0/DFlipFlop_0/NAND3_5/VDD" -30.384
-cap "INV_0/VSS" "RotationDetector_1/S1`" 78.384
+cap "INV_0/VSS" "RotationDetector_1/A3O2DFF_0/Q" 78.384
 cap "INV_0/A" "INV_0/Y" 5.77175
-cap "RotationDetector_1/S1`" "INV_0/VDD" 156.768
-cap "INV_0/VSS" "RotationDetector_1/S1" 78.384
-cap "RotationDetector_1/S1" "INV_0/VDD" 156.768
+cap "INV_0/VSS" "RotationDetector_1/A3O2DFF_0/Qb" 78.384
+cap "m1_384_582#" "RotationDetector_1/A3O2DFF_0/Q" 215.479
+cap "RotationDetector_1/2A4O2DFF_0/DFlipFlop_0/NAND3_5/VDD" "INV_0/VDD" 114.12
+cap "RotationDetector_1/2A4O2DFF_0/DFlipFlop_0/NAND3_5/VDD" "RotationDetector_1/A3O2DFF_0/Qb" -30.384
+cap "INV_0/VDD" "RotationDetector_1/A3O2DFF_0/Q" 156.768
 cap "INV_0/A" "INV_0/VSS" 196.608
+cap "INV_0/VDD" "RotationDetector_1/A3O2DFF_0/Qb" 156.768
 cap "8BitAdder_0/A7" "8BitAdder_0/B7" -357.849
+cap "8BitAdder_0/FullAdder_7/VSS" "8BitAdder_0/A7" -69.261
+cap "8BitAdder_0/FullAdder_7/VSS" "8BitAdder_0/B7" 7.10543e-15
 cap "8BitAdder_0/FullAdder_7/MIRROR_ADDER_0/A" "8BitAdder_0/FullAdder_7/MIRROR_ADDER_0/B" -288.587
-cap "RegEn8_0/DFFMUX_5/VDD" "RegEn8_0/D6" 30.7827
+cap "RegEn8_0/D6" "RegEn8_0/DFFMUX_5/VDD" 30.7827
 cap "RegEn8_0/D6" "8BitAdder_0/FullAdder_6/INV_1/Y" 169.305
-cap "8BitAdder_0/FullAdder_6/INV_1/VDD" "RegEn8_0/D6" 193.549
-cap "RegEn8_0/DFFMUX_5/VSS" "RegEn8_0/D6" 30.7827
 cap "RegEn8_0/D6" "8BitAdder_0/Cout" 46.174
+cap "8BitAdder_0/S7" "8BitAdder_0/FullAdder_7/INV_1/VSS" 34.6305
 cap "8BitAdder_0/FullAdder_6/INV_1/VSS" "RegEn8_0/D6" 46.174
 cap "8BitAdder_0/S7" "8BitAdder_0/Cout" 135.867
+cap "RegEn8_0/D6" "8BitAdder_0/FullAdder_6/INV_1/VDD" 193.549
+cap "RegEn8_0/D6" "RegEn8_0/DFFMUX_5/VSS" 30.7827
 cap "RegEn8_0/D6" "RegEn8_0/DFFMUX_6/en" 293.226
-cap "8BitAdder_0/S7" "8BitAdder_0/FullAdder_7/INV_1/VSS" 34.6305
+cap "Q0" "RegEn8_0/Q6" 248.381
 cap "Q0" "RegEn8_0/Q5" 197.431
 cap "Q0" "RegEn8_0/DFFMUX_5/DFlipFlop_0/NAND3_5/VDD" 227.88
-cap "Q0" "RegEn8_0/Q6" 248.381
-cap "8BitAdder_0/FullAdder_7/INV_1/Y" "RegEn8_0/D7" 118.883
-cap "8BitAdder_0/FullAdder_7/INV_1/VDD" "RegEn8_0/D7" 54.9
+cap "RotationDetector_1/A3O2DFF_0/DFlipFlop_0/NAND3_5/VDD" "m1_383_634#" 114.12
+cap "8BitAdder_0/FullAdder_7/MIRROR_ADDER_0/a_2_8#" "8BitAdder_0/FullAdder_7/VSS" 34.6305
 cap "RegEn8_0/DFFMUX_6/en" "RegEn8_0/D7" 2.84217e-14
-cap "RegEn8_0/DFFMUX_6/VDD" "RegEn8_0/DFFMUX_6/en" 69.261
+cap "RegEn8_0/D7" "8BitAdder_0/FullAdder_7/INV_1/VDD" 54.9
+cap "RegEn8_0/DFFMUX_6/en" "RegEn8_0/DFFMUX_6/VDD" 69.261
+cap "8BitAdder_0/FullAdder_7/INV_1/Y" "RegEn8_0/D7" 118.883
 cap "Q0" "RegEn8_0/DFFMUX_6/DFlipFlop_0/NAND3_5/VDD" 227.88
 cap "Q0" "RegEn8_0/Q6" 273.856
-cap "RegEn8_0/DFFMUX_7/m1_29_n48#" "Q0" 197.431
-cap "RegEn8_0/DFFMUX_7/VDD" "Q0" 1347.44
+cap "Q0" "RegEn8_0/DFFMUX_7/m1_29_n48#" 197.431
 cap "RegEn8_0/DFFMUX_7/en" "Q0" 103.896
-cap "RegEn8_0/DFFMUX_7/mux_0/OR2_0/VDD" "Q0" 2712.81
-cap "RegEn8_0/DFFMUX_7/DFlipFlop_0/RST" "Q0" 156.768
-cap "RegEn8_0/DFFMUX_7/DFlipFlop_0/VDD" "Q0" 3171.52
-cap "RegEn8_0/DFFMUX_7/DFlipFlop_0/CLK" "Q0" 156.768
+cap "RegEn8_0/DFFMUX_7/VDD" "Q0" 1347.44
+cap "Q0" "RegEn8_0/DFFMUX_7/mux_0/OR2_0/VDD" 2712.81
 cap "RegEn8_0/DFFMUX_7/DFlipFlop_0/RST" "Q1" 51.024
-cap "RegEn8_0/DFFMUX_7/DFlipFlop_0/RST" "RegEn8_0/DFFMUX_7/DFlipFlop_0/VDD" -39.168
-cap "Q1" "RegEn8_0/DFFMUX_7/DFlipFlop_0/CLK" 51.024
+cap "RegEn8_0/DFFMUX_7/DFlipFlop_0/CLK" "Q1" 51.024
+cap "RegEn8_0/DFFMUX_7/DFlipFlop_0/RST" "Q0" 156.768
+cap "RegEn8_0/DFFMUX_7/DFlipFlop_0/VDD" "RegEn8_0/DFFMUX_7/DFlipFlop_0/RST" -39.168
+cap "RegEn8_0/DFFMUX_7/DFlipFlop_0/CLK" "Q0" 156.768
+cap "RegEn8_0/DFFMUX_7/DFlipFlop_0/VDD" "Q0" 3171.52
 cap "RegEn8_0/DFFMUX_7/DFlipFlop_0/VDD" "RegEn8_0/DFFMUX_7/DFlipFlop_0/CLK" -39.168
-cap "RegEn8_0/DFFMUX_7/DFlipFlop_0/NAND3_5/VDD" "Q0" 3328.29
-cap "RegEn8_0/DFFMUX_7/DFlipFlop_0/NAND3_5/VSS" "Q1" 51.024
-cap "RegEn8_0/DFFMUX_7/DFlipFlop_0/NAND3_5/VDD" "RegEn8_0/DFFMUX_7/DFlipFlop_0/NAND3_5/VSS" -39.168
-cap "RegEn8_0/DFFMUX_7/DFlipFlop_0/NAND3_5/VDD" "Q1" 51.024
 cap "RegEn8_0/DFFMUX_7/DFlipFlop_0/NAND3_5/VSS" "Q0" 156.768
-cap "Q0" "RegEn8_0/DFFMUX_7/DFlipFlop_0/NAND3_5/C" 46.174
-cap "RegEn8_0/DFFMUX_7/DFlipFlop_0/NAND3_5/VDD" "Q0" 368.046
-cap "RegEn8_0/Q7" "Q0" 375.756
+cap "RegEn8_0/DFFMUX_7/DFlipFlop_0/NAND3_5/VSS" "RegEn8_0/DFFMUX_7/DFlipFlop_0/NAND3_5/VDD" -39.168
+cap "Q1" "RegEn8_0/DFFMUX_7/DFlipFlop_0/NAND3_5/VDD" 51.024
+cap "Q0" "RegEn8_0/DFFMUX_7/DFlipFlop_0/NAND3_5/VDD" 3328.29
+cap "RegEn8_0/DFFMUX_7/DFlipFlop_0/NAND3_5/VSS" "Q1" 51.024
+cap "Q0" "RegEn8_0/Q7" 375.756
+cap "RegEn8_0/DFFMUX_7/DFlipFlop_0/NAND3_5/C" "Q0" 46.174
+cap "Q0" "RegEn8_0/DFFMUX_7/DFlipFlop_0/NAND3_5/VDD" 368.046
 merge "RotationDetector_0/INV_0/Y" "r2r`" -138.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
 merge "RegEn8_0/D7" "8BitAdder_0/S7" -172.17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -18 0 0 0 0
 merge "8BitAdder_0/S7" "a7"
@@ -412,7 +440,7 @@ merge "RotationDetector_0/RST" "m1_182_n109#"
 merge "m1_182_n109#" "RST"
 merge "RegEn8_0/VDD" "8BitAdder_0/FullAdder_0/INV_1/VDD" -363.195 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -18 0 0 0 0
 merge "8BitAdder_0/FullAdder_0/INV_1/VDD" "m1_749_n17#"
-merge "RegEn8_0/Q7" "8BitAdder_0/FullAdder_7/MIRROR_ADDER_0/B" -2051.1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -232 -132 -252 -130 0 0
+merge "RegEn8_0/Q7" "8BitAdder_0/FullAdder_7/MIRROR_ADDER_0/B" -1982.56 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -232 -132 -252 -130 0 0
 merge "8BitAdder_0/FullAdder_7/MIRROR_ADDER_0/B" "8BitAdder_0/B7"
 merge "8BitAdder_0/B7" "Q7"
 merge "INV_0/VDD" "8BitAdder_0/A0" -437.94 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -28 0 0 0 0
@@ -421,6 +449,11 @@ merge "m1_423_533#" "RotationDetector_1/2A4O2DFF_0/DFlipFlop_0/NAND3_5/VDD"
 merge "RotationDetector_1/2A4O2DFF_0/DFlipFlop_0/NAND3_5/VDD" "m1_383_533#"
 merge "INV_0/VSS" "RotationDetector_1/2A4O2DFF_0/DFlipFlop_0/NAND3_5/VSS" -140.22 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -20 0 0 0 0
 merge "RotationDetector_1/2A4O2DFF_0/DFlipFlop_0/NAND3_5/VSS" "m1_383_481#"
+merge "8BitAdder_0/FullAdder_7/VDD" "w_588_631#" -1027.04 0 0 0 0 -16 -16 0 0 0 0 0 0 0 0 -136 -92 0 0 0 0
+merge "w_588_631#" "RotationDetector_1/A3O2DFF_0/DFlipFlop_0/NAND3_5/VDD"
+merge "RotationDetector_1/A3O2DFF_0/DFlipFlop_0/NAND3_5/VDD" "m1_383_634#"
+merge "8BitAdder_0/FullAdder_7/VSS" "RotationDetector_1/A3O2DFF_0/DFlipFlop_0/NAND3_5/VSS" -1043.06 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -152 -105 0 0 0 0
+merge "RotationDetector_1/A3O2DFF_0/DFlipFlop_0/NAND3_5/VSS" "m1_384_582#"
 merge "RotationDetector_1/In" "RotationDetector_0/R" -1336.68 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -416 -216 0 0
 merge "RotationDetector_0/R" "fwd"
 merge "8BitAdder_0/FullAdder_0/MIRROR_ADDER_0/VDD" "8BitAdder_0/VDD" -162.54 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -20 0 0 0 0
