@@ -263,8 +263,8 @@ p directionDetectorPart_0/AND2_1INV_0/INV_0/Y VDD directionDetectorPart_0/AND2_1
 n directionDetectorPart_0/AND2_1INV_0/INV_0/Y VSS directionDetectorPart_0/AND2_1INV_0/AND2_0/NAND2_0/a_10_8# 2 4 870 128
 n directionDetectorPart_0/AND2_1INV_0/B directionDetectorPart_0/AND2_1INV_0/AND2_0/NAND2_0/a_10_8# directionDetectorPart_0/AND2_1INV_0/AND2_0/INV_0/A 2 4 880 128
 p directionDetectorPart_0/AND2_1INV_0/B directionDetectorPart_0/AND2_1INV_0/AND2_0/INV_0/A VDD 2 4 880 164
-n directionDetectorPart_0/AND2_1INV_0/AND2_0/INV_0/A VSS FWD 2 4 897 128
-p directionDetectorPart_0/AND2_1INV_0/AND2_0/INV_0/A VDD FWD 2 8 897 160
+n directionDetectorPart_0/AND2_1INV_0/AND2_0/INV_0/A VSS BWD 2 4 897 128
+p directionDetectorPart_0/AND2_1INV_0/AND2_0/INV_0/A VDD BWD 2 8 897 160
 n directionDetectorPart_0/B VSS directionDetectorPart_0/AND2_1INV_0/INV_0/Y 2 4 853 128
 p directionDetectorPart_0/B VDD directionDetectorPart_0/AND2_1INV_0/INV_0/Y 2 8 853 160
 n directionDetectorPart_1/011detector_0/XOR2_1/A directionDetectorPart_1/011detector_0/AND3_0/NAND3_0/a_9_8# directionDetectorPart_1/011detector_0/AND3_0/NAND3_0/a_17_8# 2 4 289 696
@@ -531,103 +531,103 @@ p directionDetectorPart_1/AND2_1INV_0/INV_0/Y VDD directionDetectorPart_1/AND2_1
 n directionDetectorPart_1/AND2_1INV_0/INV_0/Y VSS directionDetectorPart_1/AND2_1INV_0/AND2_0/NAND2_0/a_10_8# 2 4 870 580
 n directionDetectorPart_1/AND2_1INV_0/B directionDetectorPart_1/AND2_1INV_0/AND2_0/NAND2_0/a_10_8# directionDetectorPart_1/AND2_1INV_0/AND2_0/INV_0/A 2 4 880 580
 p directionDetectorPart_1/AND2_1INV_0/B directionDetectorPart_1/AND2_1INV_0/AND2_0/INV_0/A VDD 2 4 880 616
-n directionDetectorPart_1/AND2_1INV_0/AND2_0/INV_0/A VSS BWD 2 4 897 580
-p directionDetectorPart_1/AND2_1INV_0/AND2_0/INV_0/A VDD BWD 2 8 897 612
+n directionDetectorPart_1/AND2_1INV_0/AND2_0/INV_0/A VSS FWD 2 4 897 580
+p directionDetectorPart_1/AND2_1INV_0/AND2_0/INV_0/A VDD FWD 2 8 897 612
 n directionDetectorPart_1/B VSS directionDetectorPart_1/AND2_1INV_0/INV_0/Y 2 4 853 580
 p directionDetectorPart_1/B VDD directionDetectorPart_1/AND2_1INV_0/INV_0/Y 2 8 853 612
-C directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_4/A VSS 2.33
-C directionDetectorPart_1/011detector_0/OR2_0/Y directionDetectorPart_1/011detector_0/AND2_1/Y 2.71
-C directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_5/B VDD 2.62
-C directionDetectorPart_1/B CLK 9.78
-C CLK directionDetectorPart_0/011detector_0/XOR2_1/A 2.19
-C directionDetectorPart_1/Reg3_0/Q0 VDD 3.57
-C directionDetectorPart_1/011detector_0/XOR2_1/B VDD 3.10
-C CLK RST 61.85
-C RST directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/A 2.72
-C directionDetectorPart_1/Reg3_0/Q0 VSS 2.21
-C directionDetectorPart_1/011detector_0/XOR2_1/B VSS 2.26
-C directionDetectorPart_1/Reg3_0/Q1 VDD 2.58
-C RST directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_4/A 2.72
-C directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/A VSS 2.33
-C directionDetectorPart_0/011detector_0/AND3_0/Y VDD 5.56
-C directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/A VSS 2.33
-C directionDetectorPart_0/B CLK 3.57
-C directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/B VDD 2.62
-C directionDetectorPart_1/011detector_0/XOR2_1/A CLK 2.19
-C directionDetectorPart_1/011detector_0/XOR2_1/B directionDetectorPart_1/011detector_0/XOR2_1/NAND2_0/A 2.04
-C directionDetectorPart_0/011detector_0/XOR2_1/B directionDetectorPart_0/011detector_0/XOR2_1/A 6.83
-C RST directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_4/A 2.72
-C directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/A RST 2.72
+C VDD directionDetectorPart_0/B 5.75
+C RST directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_4/A 2.72
 C directionDetectorPart_1/011detector_0/AND3_0/C directionDetectorPart_1/011detector_0/XOR2_1/B 8.28
-C directionDetectorPart_0/AND2_1INV_0/B VDD 2.74
-C VSS directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_4/A 2.33
-C directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/A VSS 2.33
-C VDD directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_5/B 2.62
-C directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_4/A RST 2.72
-C VDD VSS 18.02
-C directionDetectorPart_0/011detector_0/AND3_0/C VDD 2.72
-C directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_4/A RST 2.72
-C VDD directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_5/B 2.62
-C directionDetectorPart_0/Reg3_0/Q1 directionDetectorPart_0/Reg3_0/Q0 6.21
-C directionDetectorPart_1/011detector_0/AND3_0/Y VDD 5.56
-C directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/A VSS 2.33
-C directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/B VDD 2.62
-C BWD FWD 2.37
+C VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/B 2.62
+C VDD directionDetectorPart_1/011detector_0/XOR2_1/A 3.97
+C VSS directionDetectorPart_0/B 3.07
 C RST A 2.32
-C directionDetectorPart_1/AND2_1INV_0/B VDD 2.74
+C VSS directionDetectorPart_1/011detector_0/XOR2_1/A 4.37
+C directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_4/A VSS 2.33
+C VSS directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/A 2.33
 C directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/A RST 2.72
-C directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_4/A VSS 2.33
-C directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_5/B VDD 2.62
-C directionDetectorPart_1/011detector_0/AND3_0/C VDD 2.72
-C directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_5/B VDD 2.62
+C directionDetectorPart_0/Reg3_0/Q0 directionDetectorPart_0/Reg3_0/Q1 6.21
+C VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/B 2.62
 C RST directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/A 2.72
-C directionDetectorPart_1/011detector_0/XOR2_1/B directionDetectorPart_1/011detector_0/XOR2_1/A 6.83
-C B RST 11.75
+C VSS directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_4/A 2.33
+C VDD directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_5/B 2.62
 C directionDetectorPart_0/011detector_0/A_xor_B VDD 3.79
-C B CLK 14.16
+C VDD directionDetectorPart_1/Reg3_0/Q0 3.57
+C VDD directionDetectorPart_1/011detector_0/XOR2_1/B 3.10
+C VSS directionDetectorPart_1/Reg3_0/Q0 2.21
 C directionDetectorPart_1/B VDD 8.36
+C VSS directionDetectorPart_1/011detector_0/XOR2_1/B 2.26
 C RST directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_4/A 2.72
-C directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/A RST 2.72
 C directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/B VDD 2.62
 C directionDetectorPart_0/011detector_0/XOR2_1/A VDD 3.97
 C directionDetectorPart_0/011detector_0/OR2_0/Y directionDetectorPart_0/011detector_0/AND2_1/Y 2.71
+C VDD directionDetectorPart_1/Reg3_0/Q1 2.58
 C directionDetectorPart_1/B VSS 4.01
-C RST VDD 18.43
 C directionDetectorPart_0/011detector_0/XOR2_1/A VSS 4.37
+C RST VDD 18.43
 C CLK VDD 14.11
+C directionDetectorPart_1/011detector_0/XOR2_1/B directionDetectorPart_1/011detector_0/XOR2_1/A 6.83
 C RST VSS 5.80
-C directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/A RST 2.72
 C CLK VSS 5.21
 C directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/A VSS 2.33
 C directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/B VDD 2.62
-C directionDetectorPart_1/011detector_0/A_xor_B VDD 3.79
+C CLK directionDetectorPart_0/B 3.57
+C CLK directionDetectorPart_1/011detector_0/XOR2_1/A 2.19
+C directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_4/A RST 2.72
 C directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_4/A VSS 2.33
-C directionDetectorPart_0/Reg3_0/Q1 VDD 2.58
-C directionDetectorPart_0/B VDD 5.75
-C directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_4/A RST 2.72
-C directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_5/B VDD 2.62
-C directionDetectorPart_1/Reg3_0/Q0 directionDetectorPart_1/Reg3_0/Q1 6.21
-C directionDetectorPart_1/011detector_0/XOR2_1/A VDD 3.97
-C directionDetectorPart_0/B VSS 3.07
-C directionDetectorPart_1/011detector_0/XOR2_1/A VSS 4.37
+C RST directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/A 2.72
+C VSS directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_4/A 2.33
+C VDD directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_5/B 2.62
+C BWD FWD 2.37
 C directionDetectorPart_0/011detector_0/XOR2_1/B directionDetectorPart_0/011detector_0/XOR2_1/NAND2_0/A 2.04
 C VDD directionDetectorPart_0/Reg3_0/Q0 3.57
+C VSS directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/A 2.33
 C directionDetectorPart_0/011detector_0/XOR2_1/B VDD 3.10
-C VSS directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_4/A 2.33
 C VSS directionDetectorPart_0/Reg3_0/Q0 2.21
-C directionDetectorPart_0/B BWD 6.70
-C directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/A VSS 2.33
 C directionDetectorPart_0/011detector_0/XOR2_1/B VSS 2.26
+C RST directionDetectorPart_1/Reg3_0/DFlipFlop_1/NAND3_4/A 2.72
 C directionDetectorPart_0/011detector_0/AND3_0/C directionDetectorPart_0/011detector_0/XOR2_1/B 8.28
-C directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_1/NAND3_5/B VDD 2.62
-C VDD directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_5/B 2.62
-C directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_4/A VSS 2.33
-C BWD GND 7.97
-R BWD 20
-= BWD directionDetectorPart_1/FWD
-= BWD directionDetectorPart_1/AND2_1INV_0/Y
-= BWD directionDetectorPart_1/AND2_1INV_0/AND2_0/Y
-= BWD directionDetectorPart_1/AND2_1INV_0/AND2_0/INV_0/Y
+C VDD directionDetectorPart_0/Reg3_0/Q1 2.58
+C VDD directionDetectorPart_1/011detector_0/AND3_0/Y 5.56
+C VSS directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/A 2.33
+C VDD directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/B 2.62
+C directionDetectorPart_1/Reg3_0/Q0 directionDetectorPart_1/Reg3_0/Q1 6.21
+C directionDetectorPart_0/B FWD 6.70
+C directionDetectorPart_1/B CLK 9.78
+C VDD directionDetectorPart_1/AND2_1INV_0/B 2.74
+C CLK directionDetectorPart_0/011detector_0/XOR2_1/A 2.19
+C VSS directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_4/A 2.33
+C VDD directionDetectorPart_1/Reg3_0/DFlipFlop_2/NAND3_5/B 2.62
+C CLK RST 61.85
+C RST directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_1/NAND3_4/A 2.72
+C VDD directionDetectorPart_1/011detector_0/AND3_0/C 2.72
+C VDD directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_5/B 2.62
+C RST directionDetectorPart_1/Reg3_0/DFlipFlop_0/NAND3_4/A 2.72
+C directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/A VSS 2.33
+C directionDetectorPart_1/011detector_0/OR2_0/Y directionDetectorPart_1/011detector_0/AND2_1/Y 2.71
+C RST B 11.75
+C CLK B 14.16
+C RST directionDetectorPart_0/Reg3_0/DFlipFlop_1/NAND3_4/A 2.72
+C directionDetectorPart_0/011detector_0/AND3_0/Y VDD 5.56
+C directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/A VSS 2.33
+C directionDetectorPart_0/011detector_0/Reg3_0/DFlipFlop_2/NAND3_5/B VDD 2.62
+C RST directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_0/NAND3_4/A 2.72
+C directionDetectorPart_0/011detector_0/XOR2_1/B directionDetectorPart_0/011detector_0/XOR2_1/A 6.83
+C RST directionDetectorPart_1/011detector_0/Reg3_0/DFlipFlop_2/NAND3_4/A 2.72
+C directionDetectorPart_0/AND2_1INV_0/B VDD 2.74
+C VSS directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_4/A 2.33
+C VDD directionDetectorPart_0/Reg3_0/DFlipFlop_2/NAND3_5/B 2.62
+C VDD VSS 18.02
+C VDD directionDetectorPart_1/011detector_0/A_xor_B 3.79
+C directionDetectorPart_0/011detector_0/AND3_0/C VDD 2.72
+C directionDetectorPart_1/011detector_0/XOR2_1/B directionDetectorPart_1/011detector_0/XOR2_1/NAND2_0/A 2.04
+C VDD directionDetectorPart_0/Reg3_0/DFlipFlop_0/NAND3_5/B 2.62
+C FWD GND 7.97
+R FWD 20
+= FWD directionDetectorPart_1/FWD
+= FWD directionDetectorPart_1/AND2_1INV_0/Y
+= FWD directionDetectorPart_1/AND2_1INV_0/AND2_0/Y
+= FWD directionDetectorPart_1/AND2_1INV_0/AND2_0/INV_0/Y
 C directionDetectorPart_1/AND2_1INV_0/AND2_0/INV_0/A GND 2.02
 R directionDetectorPart_1/AND2_1INV_0/AND2_0/INV_0/A 65
 = directionDetectorPart_1/AND2_1INV_0/AND2_0/INV_0/A directionDetectorPart_1/AND2_1INV_0/AND2_0/NAND2_0/Y
@@ -941,12 +941,12 @@ C directionDetectorPart_1/011detector_0/AND3_0/INV_0/A GND 2.16
 R directionDetectorPart_1/011detector_0/AND3_0/INV_0/A 74
 = directionDetectorPart_1/011detector_0/AND3_0/INV_0/A directionDetectorPart_1/011detector_0/AND3_0/NAND3_0/Y
 = directionDetectorPart_1/011detector_0/AND3_0/INV_0/A directionDetectorPart_1/011detector_0/AND3_0/m1_36_20#
-C FWD GND 3.40
-R FWD 12
-= FWD directionDetectorPart_0/FWD
-= FWD directionDetectorPart_0/AND2_1INV_0/Y
-= FWD directionDetectorPart_0/AND2_1INV_0/AND2_0/Y
-= FWD directionDetectorPart_0/AND2_1INV_0/AND2_0/INV_0/Y
+C BWD GND 3.40
+R BWD 12
+= BWD directionDetectorPart_0/FWD
+= BWD directionDetectorPart_0/AND2_1INV_0/Y
+= BWD directionDetectorPart_0/AND2_1INV_0/AND2_0/Y
+= BWD directionDetectorPart_0/AND2_1INV_0/AND2_0/INV_0/Y
 C directionDetectorPart_0/AND2_1INV_0/AND2_0/INV_0/A GND 2.02
 R directionDetectorPart_0/AND2_1INV_0/AND2_0/INV_0/A 65
 = directionDetectorPart_0/AND2_1INV_0/AND2_0/INV_0/A directionDetectorPart_0/AND2_1INV_0/AND2_0/NAND2_0/Y
