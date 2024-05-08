@@ -1,0 +1,230 @@
+timestamp 1715137965
+version 8.3
+tech scmos
+style HP0.5um(hpcmos14tb)from:N9AE
+scale 1000 1 30
+resistclasses 2800 2300 713000 713000 1 2500 2500 70 70 50
+use VelocityDetector VelocityDetector_0 1 0 9 0 1 1156
+use pvaPosition pvaPosition_0 1 0 0 0 1 4
+node "P7" 0 56.736 2322 12 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "P6" 0 56.736 2314 12 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "P5" 0 56.736 2306 12 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "P4" 0 56.736 2298 12 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "P3" 0 56.736 2290 12 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "P2" 0 56.736 2282 12 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "P1" 0 56.736 2274 12 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "P0" 0 56.736 2266 12 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "V0" 0 56.736 2661 1161 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "V1" 0 56.736 2653 1161 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "V2" 0 56.736 2645 1161 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "V3" 0 56.736 2637 1161 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "V4" 0 56.736 2629 1161 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "V5" 0 56.736 2621 1161 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "V6" 0 56.736 2613 1161 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "V7" 0 56.736 2605 1161 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "C0" 0 56.736 297 1122 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "C1" 0 46.944 289 1123 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 14 0 0
+node "C2" 0 46.944 281 1123 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 14 0 0
+node "C3" 0 56.736 273 1123 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "m2_1211_1146#" 0 56.736 1211 1146 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "NOR4" 0 56.736 618 1185 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "B" 0 138.96 10 12 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "CLK" 0 138.96 10 20 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "RST" 0 138.96 10 28 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "A" 0 138.96 10 36 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "m1_1359_970#" 9 9479.12 1359 970 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1448 732 580 298 0 0
+node "m1_1359_978#" 9 9479.12 1359 978 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1448 732 580 298 0 0
+node "m1_1359_986#" 9 9479.12 1359 986 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1448 732 580 298 0 0
+node "m1_1359_994#" 9 9479.12 1359 994 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1448 732 580 298 0 0
+node "m1_1359_1002#" 9 9479.12 1359 1002 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1448 732 580 298 0 0
+node "m1_1359_1010#" 9 9479.12 1359 1010 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1448 732 580 298 0 0
+node "m1_1359_1018#" 9 9479.12 1359 1018 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1448 732 580 298 0 0
+node "m1_1359_1026#" 9 9479.12 1359 1026 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1448 732 580 298 0 0
+node "X0" 0 174.096 1211 1099 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 16 16 0 0
+node "X1" 0 174.096 1219 1107 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 16 16 0 0
+node "X2" 0 174.096 1227 1115 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 16 16 0 0
+node "m1_68_1113#" 6 3955.16 68 1113 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 148 82 1260 646 0 0
+node "X3" 0 174.096 1235 1123 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 16 16 0 0
+node "m1_32_1136#" 5 2798.35 32 1136 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 1088 552 0 0
+node "VSS" 14 12621 2238 825 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1416 724 1832 924 0 0
+node "VDD" 14 12453.6 2264 877 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1380 706 1832 924 0 0
+cap "P0" "P1" 50.95
+cap "m1_1359_1018#" "m1_1359_986#" 313.536
+cap "P3" "P2" 50.95
+cap "m1_1359_1010#" "m1_1359_1018#" 6288.27
+cap "m1_1359_994#" "m1_1359_1018#" 313.536
+cap "V4" "V3" 50.95
+cap "m1_1359_1002#" "m1_1359_1018#" 313.536
+cap "m1_1359_978#" "m1_1359_1018#" 313.536
+cap "m1_1359_1010#" "m1_1359_986#" 313.536
+cap "A" "RST" 46.174
+cap "m1_1359_994#" "m1_1359_986#" 6288.27
+cap "C2" "C3" 38.2125
+cap "m1_1359_1002#" "m1_1359_986#" 313.536
+cap "m1_1359_978#" "m1_1359_986#" 6288.27
+cap "CLK" "RST" 46.174
+cap "m1_1359_994#" "m1_1359_1010#" 313.536
+cap "P4" "P3" 50.95
+cap "V5" "V4" 50.95
+cap "CLK" "B" 46.174
+cap "m1_1359_1002#" "m1_1359_1010#" 6288.27
+cap "m1_1359_978#" "m1_1359_1010#" 313.536
+cap "m1_1359_1002#" "m1_1359_994#" 6288.27
+cap "m1_1359_970#" "m1_1359_1018#" 313.536
+cap "m1_1359_978#" "m1_1359_994#" 313.536
+cap "P5" "P6" 50.95
+cap "m1_1359_1026#" "m1_1359_1018#" 6262.76
+cap "m1_1359_978#" "m1_1359_1002#" 313.536
+cap "V1" "V0" 50.95
+cap "m1_1359_970#" "m1_1359_986#" 313.536
+cap "V6" "V7" 50.95
+cap "m1_1359_1026#" "m1_1359_986#" 288.024
+cap "m1_1359_1010#" "m1_1359_970#" 313.536
+cap "C1" "C0" 38.2125
+cap "m1_1359_1026#" "m1_1359_1010#" 288.024
+cap "m1_1359_994#" "m1_1359_970#" 313.536
+cap "m1_1359_994#" "m1_1359_1026#" 288.024
+cap "m1_1359_1002#" "m1_1359_970#" 313.536
+cap "C1" "C2" 38.2125
+cap "m1_1359_978#" "m1_1359_970#" 6288.27
+cap "P6" "P7" 50.95
+cap "m1_1359_1002#" "m1_1359_1026#" 288.024
+cap "m1_1359_978#" "m1_1359_1026#" 288.024
+cap "P5" "P4" 50.95
+cap "V2" "V3" 50.95
+cap "V1" "V2" 50.95
+cap "V5" "V6" 50.95
+cap "m1_1359_1026#" "m1_1359_970#" 288.024
+cap "P2" "P1" 50.95
+cap "VDD" "VSS" 5302.72
+cap "pvaPosition_0/A" "pvaPosition_0/RST" -7.10543e-15
+cap "pvaPosition_0/CLK" "pvaPosition_0/RST" -7.10543e-15
+cap "pvaPosition_0/CLK" "pvaPosition_0/B" -7.10543e-15
+cap "pvaPosition_0/directionDetector_0/directionDetectorPart_1/m1_n12_248#" "m1_32_1136#" 156.768
+cap "pvaPosition_0/directionDetector_0/directionDetectorPart_1/m1_n4_140#" "m1_68_1113#" 105.744
+cap "pvaPosition_0/directionDetector_0/directionDetectorPart_1/m1_n4_140#" "m1_32_1136#" 105.744
+cap "pvaPosition_0/directionDetector_0/directionDetectorPart_1/m1_n12_248#" "m1_68_1113#" 156.768
+cap "pvaPosition_0/PositionPart_0/Q2" "pvaPosition_0/PositionPart_0/Q1" -171.956
+cap "m1_1359_1002#" "m1_1359_994#" -95.5312
+cap "pvaPosition_0/PositionPart_0/Q2" "m1_1359_994#" -191.062
+cap "pvaPosition_0/PositionPart_0/Q1" "pvaPosition_0/PositionPart_0/Q0" -76.425
+cap "m1_1359_1002#" "m1_1359_1010#" -191.062
+cap "m1_1359_1010#" "m1_1359_1018#" -191.062
+cap "m1_1359_1018#" "m1_1359_1026#" -191.062
+cap "m1_1359_1002#" "m1_1359_994#" -95.5312
+cap "pvaPosition_0/PositionPart_0/RegEn8_0/Q7" "pvaPosition_0/PositionPart_0/RegEn8_0/DFFMUX_7/DFlipFlop_0/NAND3_5/VSS" 384.783
+cap "pvaPosition_0/PositionPart_0/RegEn8_0/DFFMUX_7/DFlipFlop_0/NAND3_5/VSS" "pvaPosition_0/PositionPart_0/Q2" 156.768
+cap "pvaPosition_0/PositionPart_0/Q2" "pvaPosition_0/PositionPart_0/RegEn8_0/DFFMUX_7/DFlipFlop_0/NAND3_5/VDD" 156.768
+cap "pvaPosition_0/PositionPart_0/RegEn8_0/DFFMUX_7/DFlipFlop_0/NAND3_5/VSS" "pvaPosition_0/PositionPart_0/Q0" 156.768
+cap "pvaPosition_0/PositionPart_0/Q0" "pvaPosition_0/PositionPart_0/RegEn8_0/DFFMUX_7/DFlipFlop_0/NAND3_5/VDD" 218.732
+cap "pvaPosition_0/PositionPart_0/RegEn8_0/DFFMUX_7/DFlipFlop_0/NAND3_5/VSS" "pvaPosition_0/PositionPart_0/Q1" 156.768
+cap "pvaPosition_0/PositionPart_0/Q1" "pvaPosition_0/PositionPart_0/RegEn8_0/DFFMUX_7/DFlipFlop_0/NAND3_5/VDD" 156.768
+cap "VSS" "pvaPosition_0/PositionPart_0/Q4" 156.768
+cap "pvaPosition_0/PositionPart_0/Q4" "VDD" 156.768
+cap "VSS" "pvaPosition_0/PositionPart_0/Q5" 156.768
+cap "pvaPosition_0/PositionPart_0/Q5" "VDD" 156.768
+cap "VSS" "pvaPosition_0/PositionPart_0/Q7" 726.247
+cap "VSS" "pvaPosition_0/PositionPart_0/Q6" 156.768
+cap "pvaPosition_0/PositionPart_0/Q7" "VDD" 156.768
+cap "pvaPosition_0/PositionPart_0/Q6" "VDD" 156.768
+cap "VSS" "pvaPosition_0/PositionPart_0/Q3" 156.768
+cap "pvaPosition_0/PositionPart_0/Q3" "VDD" 156.768
+cap "m1_32_1136#" "VelocityDetector_0/A1" 156.768
+cap "VelocityDetector_0/A2" "m1_32_1136#" 156.768
+cap "m1_32_1136#" "VelocityDetector_0/A3" 156.768
+cap "m1_68_1113#" "VelocityDetector_0/A1" 156.768
+cap "VelocityDetector_0/A0" "m1_32_1136#" 156.768
+cap "VelocityDetector_0/A2" "m1_68_1113#" 156.768
+cap "m1_68_1113#" "VelocityDetector_0/A3" 156.768
+cap "VelocityDetector_0/A0" "m1_68_1113#" 156.768
+cap "VelocityDetector_0/A0" "VelocityDetector_0/A2" 25.512
+cap "VelocityDetector_0/A0" "VelocityDetector_0/A3" 25.512
+cap "VelocityDetector_0/A2" "VelocityDetector_0/A1" 5.68434e-14
+cap "VelocityDetector_0/A0" "VelocityDetector_0/A1" 25.512
+cap "m1_1359_1002#" "m1_1359_994#" -82.7938
+cap "m1_1359_986#" "m1_1359_994#" -89.1625
+cap "m1_1359_986#" "m1_1359_978#" 4.54747e-13
+cap "pvaPosition_0/PositionPart_0/Q6" "pvaPosition_0/PositionPart_0/Q5" -394.862
+cap "pvaPosition_0/PositionPart_0/Q5" "m1_1359_1002#" -292.962
+cap "pvaPosition_0/PositionPart_0/Q7" "pvaPosition_0/PositionPart_0/Q6" -496.763
+cap "m1_1359_1002#" "m1_1359_994#" -108.269
+cap "VelocityDetector_0/A7" "m1_68_1113#" 156.768
+cap "VelocityDetector_0/A6" "m1_32_1136#" 156.768
+cap "VelocityDetector_0/A5" "m1_68_1113#" 156.768
+cap "VelocityDetector_0/A4" "m1_32_1136#" 156.768
+cap "VelocityDetector_0/A6" "m1_68_1113#" 156.768
+cap "VelocityDetector_0/A4" "m1_68_1113#" 156.768
+cap "VelocityDetector_0/A7" "m1_32_1136#" 156.768
+cap "VelocityDetector_0/A5" "m1_32_1136#" 156.768
+cap "VelocityDetector_0/A0" "VelocityDetector_0/A5" 25.512
+cap "VelocityDetector_0/A0" "VelocityDetector_0/A4" 25.512
+cap "VelocityDetector_0/A0" "VelocityDetector_0/A7" 25.512
+cap "VelocityDetector_0/A0" "VelocityDetector_0/A6" 25.512
+cap "VelocityDetector_0/RST" "VelocityDetector_0/CLK" 156.768
+cap "C2" "C1" -19.1063
+cap "VelocityDetector_0/m1_264_n44#" "C2" -38.2125
+cap "C1" "C0" -38.2125
+cap "VelocityDetector_0/Y6" "VelocityDetector_0/Y5" 4.26326e-14
+cap "VelocityDetector_0/Y1" "VelocityDetector_0/Y0" 4.26326e-14
+cap "VelocityDetector_0/Y3" "VelocityDetector_0/Y2" 4.26326e-14
+cap "VelocityDetector_0/Y5" "VelocityDetector_0/Y4" 4.26326e-14
+cap "VelocityDetector_0/Y7" "VelocityDetector_0/Y6" 4.26326e-14
+cap "VelocityDetector_0/Y2" "VelocityDetector_0/Y1" 4.26326e-14
+cap "VelocityDetector_0/Y4" "VelocityDetector_0/Y3" 4.26326e-14
+cap "VelocityDetector_0/DELTAX_0/SUB8_0/XOR2_7/Y" "VelocityDetector_0/DELTAX_0/SUB8_0/XOR2_7/NAND2_0/VDD" 156.768
+cap "VelocityDetector_0/DELTAX_0/SUB8_0/XOR2_7/Y" "VelocityDetector_0/DELTAX_0/SUB8_0/XOR2_7/NAND2_0/VDD" -14.184
+cap "VelocityDetector_0/DELTAX_0/SUB8_0/XOR2_7/NAND2_0/VDD" "VelocityDetector_0/DELTAX_0/SUB8_0/XOR2_7/NAND2_0/VDD" 114.12
+merge "VelocityDetector_0/Y2" "V2" -17.568 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "VelocityDetector_0/A2" "pvaPosition_0/PositionPart_0/Q2" -4078.33 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -528 -276 -460 -234 0 0
+merge "pvaPosition_0/PositionPart_0/Q2" "m1_1359_986#"
+merge "pvaPosition_0/P0" "P0" -17.568 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "VelocityDetector_0/Y3" "V3" -17.568 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "VelocityDetector_0/Y4" "V4" -17.568 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "VelocityDetector_0/A3" "pvaPosition_0/PositionPart_0/Q3" -4243.79 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -528 -276 -556 -286 0 0
+merge "pvaPosition_0/PositionPart_0/Q3" "m1_1359_994#"
+merge "pvaPosition_0/P1" "P1" -17.568 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "VelocityDetector_0/Y5" "V5" -17.568 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "VelocityDetector_0/A4" "pvaPosition_0/PositionPart_0/Q4" -1190.81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -556 -286 0 0
+merge "pvaPosition_0/PositionPart_0/Q4" "m1_1359_1002#"
+merge "pvaPosition_0/P3" "P3" -17.568 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "pvaPosition_0/P2" "P2" -17.568 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "VelocityDetector_0/Y6" "V6" -17.568 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "VelocityDetector_0/A5" "pvaPosition_0/PositionPart_0/Q5" -1190.81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -556 -286 0 0
+merge "pvaPosition_0/PositionPart_0/Q5" "m1_1359_1010#"
+merge "pvaPosition_0/P4" "P4" -17.568 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "VelocityDetector_0/Y7" "V7" -17.568 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "VelocityDetector_0/A6" "pvaPosition_0/PositionPart_0/Q6" -1190.81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -556 -286 0 0
+merge "pvaPosition_0/PositionPart_0/Q6" "m1_1359_1018#"
+merge "pvaPosition_0/P5" "P5" -17.568 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "VelocityDetector_0/A7" "pvaPosition_0/PositionPart_0/Q7" -1190.81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -556 -286 0 0
+merge "pvaPosition_0/PositionPart_0/Q7" "m1_1359_1026#"
+merge "pvaPosition_0/P6" "P6" -17.568 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "VelocityDetector_0/m1_288_n68#" "C0" -270.144 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -108 -70 0 0
+merge "VelocityDetector_0/DELTAX_0/SUB8_0/XOR2_7/NAND2_0/VSS" "pvaPosition_0/PositionPart_0/RegEn8_0/DFFMUX_7/DFlipFlop_0/NAND3_5/VSS" -4368.1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -424 -240 -732 -370 0 0
+merge "pvaPosition_0/PositionPart_0/RegEn8_0/DFFMUX_7/DFlipFlop_0/NAND3_5/VSS" "VSS"
+merge "VelocityDetector_0/DELTAX_0/SUB8_0/XOR2_7/NAND2_0/VDD" "pvaPosition_0/PositionPart_0/RegEn8_0/DFFMUX_7/DFlipFlop_0/NAND3_5/VDD" -4347.54 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -320 -180 -940 -474 0 0
+merge "pvaPosition_0/PositionPart_0/RegEn8_0/DFFMUX_7/DFlipFlop_0/NAND3_5/VDD" "VDD"
+merge "pvaPosition_0/P7" "P7" -17.568 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "VelocityDetector_0/NOR4_0/Y" "NOR4" -56.736 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "VelocityDetector_0/m1_885_n49#" "X1" -174.096 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -16 -16 0 0
+merge "VelocityDetector_0/Y0" "V0" -17.568 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "VelocityDetector_0/Y1" "V1" -17.568 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0
+merge "VelocityDetector_0/CLK" "pvaPosition_0/directionDetector_0/directionDetectorPart_1/Reg3_0/DFlipFlop_2/CLK" -2385.22 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -964 -502 0 0
+merge "pvaPosition_0/directionDetector_0/directionDetectorPart_1/Reg3_0/DFlipFlop_2/CLK" "m1_68_1113#"
+merge "pvaPosition_0/RST" "RST" -47.16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "VelocityDetector_0/m1_885_n41#" "X2" -174.096 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -16 -16 0 0
+merge "VelocityDetector_0/m1_280_n60#" "C1" -324.036 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -104 -94 0 0
+merge "VelocityDetector_0/m1_272_n52#" "C2" -260.352 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -104 -68 0 0
+merge "pvaPosition_0/CLK" "CLK" -47.16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "pvaPosition_0/A" "A" -47.16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "VelocityDetector_0/m1_264_n44#" "C3" -56.736 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0
+merge "VelocityDetector_0/A1" "pvaPosition_0/PositionPart_0/Q1" -4078.33 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -528 -276 -460 -234 0 0
+merge "pvaPosition_0/PositionPart_0/Q1" "m1_1359_978#"
+merge "pvaPosition_0/B" "B" -47.16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "VelocityDetector_0/COUNTER4_1/RST" "pvaPosition_0/directionDetector_0/directionDetectorPart_1/Reg3_0/DFlipFlop_2/RST" -2485.01 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -964 -494 0 0
+merge "pvaPosition_0/directionDetector_0/directionDetectorPart_1/Reg3_0/DFlipFlop_2/RST" "m1_32_1136#"
+merge "VelocityDetector_0/A0" "pvaPosition_0/PositionPart_0/Q0" -4113.47 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -528 -276 -460 -234 0 0
+merge "pvaPosition_0/PositionPart_0/Q0" "m1_1359_970#"
+merge "VelocityDetector_0/m1_885_n57#" "m2_1211_1146#" -230.832 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -32 -32 0 0
+merge "m2_1211_1146#" "X0"
+merge "VelocityDetector_0/m1_885_n33#" "X3" -174.096 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 -16 -16 0 0
