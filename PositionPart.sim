@@ -983,15 +983,21 @@ n en VSS RegEn8_0/DFFMUX_7/mux_0/INV_0/Y 2 4 770 712
 p en VDD RegEn8_0/DFFMUX_7/mux_0/INV_0/Y 2 8 770 744
 n rot1 VSS rot1` 2 4 414 489
 p rot1 VDD rot1` 2 8 414 521
+C 8BitAdder_0/FullAdder_2/C Q2 3.43
+C VDD RegEn8_0/DFFMUX_5/DFlipFlop_0/NAND3_5/B 2.62
+C RST RegEn8_0/DFFMUX_6/DFlipFlop_0/NAND3_4/A 2.72
+C RotationDetector_0/A3O2DFF_0/DFlipFlop_0/NAND3_4/A RST 2.72
+C Q6 Q7 21.48
+C RotationDetector_1/A3O2DFF_0/DFlipFlop_0/NAND3_4/A RST 2.72
 C 8BitAdder_0/FullAdder_4/INV_1/A 8BitAdder_0/FullAdder_4/C 3.00
 C Q2 VDD 15.14
 C Q2 Q3 25.34
 C RegEn8_0/DFFMUX_2/DFlipFlop_0/NAND3_4/A VSS 2.33
-C 8BitAdder_0/FullAdder_4/C Q4 3.43
 C 8BitAdder_0/FullAdder_7/INV_1/A 8BitAdder_0/FullAdder_7/C 3.00
+C 8BitAdder_0/FullAdder_4/C Q4 3.43
 C s1` VSS 2.06
-C q2 q2b 11.22
 C q1b VSS 2.03
+C q2 q2b 11.22
 C s2` VSS 2.19
 C q1b bwd 3.43
 C Q1 VSS 3.33
@@ -1007,8 +1013,8 @@ C RegEn8_0/DFFMUX_5/DFlipFlop_0/NAND3_4/A VSS 2.33
 C RegEn8_0/DFFMUX_0/DFlipFlop_0/NAND3_5/B VDD 2.62
 C CLK RST 39.92
 C 8BitAdder_0/FullAdder_0/INV_1/A VSS 3.71
-C 8BitAdder_0/FullAdder_7/C VDD 2.15
 C Q4 VSS 3.09
+C 8BitAdder_0/FullAdder_7/C VDD 2.15
 C r2r` VDD 7.79
 C 8BitAdder_0/FullAdder_7/INV_1/A VDD 4.02
 C RotationDetector_0/2A4O2DFF_0/DFlipFlop_0/NAND3_4/A VSS 2.33
@@ -1078,9 +1084,9 @@ C Q1 VDD 15.21
 C q1 q2b 11.18
 C r2r` VSS 2.59
 C 8BitAdder_0/FullAdder_4/C VDD 2.15
+C RotationDetector_1/INV_0/Y VSS 2.63
 C s2 s1` 11.18
 C q1 q1b 8.33
-C RotationDetector_1/INV_0/Y VSS 2.63
 C r2r` bwd 7.51
 C q2 r2r` 4.60
 C s2 s2` 8.33
@@ -1122,12 +1128,6 @@ C s2` s1` 2.46
 C Q6 VSS 3.09
 C Q0 VSS 6.85
 C en VSS 12.17
-C 8BitAdder_0/FullAdder_2/C Q2 3.43
-C VDD RegEn8_0/DFFMUX_5/DFlipFlop_0/NAND3_5/B 2.62
-C RST RegEn8_0/DFFMUX_6/DFlipFlop_0/NAND3_4/A 2.72
-C RotationDetector_0/A3O2DFF_0/DFlipFlop_0/NAND3_4/A RST 2.72
-C Q6 Q7 21.48
-C RotationDetector_1/A3O2DFF_0/DFlipFlop_0/NAND3_4/A RST 2.72
 R RegEn8_0/DFFMUX_7/mux_0/OR2_0/A 63
 = RegEn8_0/DFFMUX_7/mux_0/OR2_0/A RegEn8_0/DFFMUX_7/mux_0/OR2_0/NOR2_0/A
 = RegEn8_0/DFFMUX_7/mux_0/OR2_0/A RegEn8_0/DFFMUX_7/mux_0/AND2_1/Y

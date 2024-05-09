@@ -1,6 +1,7 @@
 h VDD
 l VSS
-analyzer R In RST CLK Out S1 S1` S2 S2`
+analyzer R In RST CLK Out
+# S1 S1` S2 S2`
 l RST CLK In R
 s
 h RST
